@@ -66,3 +66,4 @@ void Game::handlePlayerInput(sf::Keyboard::Key key, bool isPressed){
     else if (key == sf::Keyboard::D)
         world_.isMovingRight = isPressed;
 }
+
