@@ -1,0 +1,5 @@
+/home/valentiay/programming/Javorski/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/valentiay/programming/Javorski/cmake-build-debug/CMakeFiles/MySFML.dir
+/home/valentiay/programming/Javorski/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/valentiay/programming/Javorski/cmake-build-debug/CMakeFiles/JavoLib.dir
+/home/valentiay/programming/Javorski/cmake-build-debug/CMakeFiles/JavoGame.dir

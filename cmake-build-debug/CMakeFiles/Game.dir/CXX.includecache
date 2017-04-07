@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/valentiay/programming/Javorski/cpp/Game.cpp
+../hpp/Game.h
+/home/valentiay/programming/Javorski/hpp/Game.h
+
+/home/valentiay/programming/Javorski/hpp/Game.h
+SFML/Graphics.hpp
+/home/valentiay/programming/Javorski/hpp/SFML/Graphics.hpp
+World.h
+/home/valentiay/programming/Javorski/hpp/World.h
+
+/home/valentiay/programming/Javorski/hpp/ResourceHolder.h
+SFML/Graphics.hpp
+/home/valentiay/programming/Javorski/hpp/SFML/Graphics.hpp
+assert.h
+-
+../inl/ResorceHolder.inl
+/home/valentiay/programming/Javorski/inl/ResorceHolder.inl
+
+/home/valentiay/programming/Javorski/hpp/SceneGraph.h
+SFML/Graphics.hpp
+/home/valentiay/programming/Javorski/hpp/SFML/Graphics.hpp
+
+/home/valentiay/programming/Javorski/hpp/World.h
+ResourceHolder.h
+/home/valentiay/programming/Javorski/hpp/ResourceHolder.h
+SceneGraph.h
+/home/valentiay/programming/Javorski/hpp/SceneGraph.h
+
+/home/valentiay/programming/Javorski/inl/ResorceHolder.inl
+
