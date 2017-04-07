@@ -45,4 +45,5 @@ private:
     sf::Vector2f spawnPos_;
 };
 
+
 #endif //GAME_WORLD_H

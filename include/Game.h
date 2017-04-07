@@ -21,7 +21,7 @@ private:
 
     sf::RenderWindow window_;
     World world_;
-    sf::Time timePerFrame_;
+    sf::Time dt;
 };
 
 #endif //GAME_GAME_H
