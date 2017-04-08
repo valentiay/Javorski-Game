@@ -46,14 +46,12 @@ void World::buildScene(){
                                                        textureRect));
     backgroundSprite->setPosition(0.f, 0.f);
     layers_[Background]->attachChild(std::move(backgroundSprite));
-                                  // ^ CLion is lying
 
     std::unique_ptr<Entity> kitten(
             new Entity(textures_.get(Textures::ID::Floor)));
     kitten->setPosition(100.f, 100.f);
     player_ = kitten.get();
     layers_[Characters]->attachChild(std::move(kitten));
-                                  // ^ CLion is lying
 
     std::unique_ptr<Entity> java(
             new Entity(textures_.get(Textures::ID::Player)));
