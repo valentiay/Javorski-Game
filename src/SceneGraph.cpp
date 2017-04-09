@@ -51,6 +51,15 @@ void SceneNode::drawCurrent(sf::RenderTarget & target,
                                     sf::RenderStates states) const
 {}
 
+
+
+sf::Vector2f SceneNode::getAbsolutePosition(){
+    sf::Transform transform = sf::Transform::Identity;
+    for(SceneNode * node = this; node != nullptr; node = node->father_)
+        transform = node->getTransform() * transform;
+    return transform * sf::Vector2f();
+}
+
 /****************************ENTITY********************************************/
 
 Entity::Entity(const sf::Texture & texture){

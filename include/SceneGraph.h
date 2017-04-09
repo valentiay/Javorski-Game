@@ -24,6 +24,9 @@ public:
     // TODO
     void onCommand(const Command & command);
 
+    // Returns absolute position of current node
+    sf::Vector2f getAbsolutePosition();
+
 private:
     // Recursively draws the scene
     virtual void draw(sf::RenderTarget & target,

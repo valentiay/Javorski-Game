@@ -14,21 +14,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="73fb7318-94b7-4bc9-b50c-7bb722f50f08" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MySFML.dir/src/main.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MySFML.dir/src/main.cpp.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/MySFML" afterPath="$PROJECT_DIR$/cmake-build-debug/MySFML" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/libJavoLib.a" afterPath="$PROJECT_DIR$/cmake-build-debug/libJavoLib.a" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/JavoLib.dir/src/Game.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/JavoLib.dir/src/Game.cpp.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/JavoLib.dir/src/SceneGraph.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/JavoLib.dir/src/SceneGraph.cpp.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/JavoLib.dir/src/World.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/JavoLib.dir/src/World.cpp.o" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/JavoLib.dir/CXX.includecache" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/JavoLib.dir/CXX.includecache" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/JavoLib.dir/depend.internal" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/JavoLib.dir/depend.internal" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/JavoLib.dir/depend.make" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/JavoLib.dir/depend.make" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MySFML.dir/CXX.includecache" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MySFML.dir/CXX.includecache" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MySFML.dir/depend.internal" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MySFML.dir/depend.internal" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MySFML.dir/depend.make" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MySFML.dir/depend.make" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/include/Game.h" afterPath="$PROJECT_DIR$/include/Game.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/include/Player.h" afterPath="$PROJECT_DIR$/include/Player.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/include/ResourceHolder.h" afterPath="$PROJECT_DIR$/include/ResourceHolder.h" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/include/SceneGraph.h" afterPath="$PROJECT_DIR$/include/SceneGraph.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/include/World.h" afterPath="$PROJECT_DIR$/include/World.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/SceneGraph.cpp" afterPath="$PROJECT_DIR$/src/SceneGraph.cpp" />
     </list>
     <ignored path="game.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -74,8 +65,8 @@
       <file leaf-file-name="Game.h" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/include/Game.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+            <state relative-caret-position="280">
+              <caret line="30" column="1" lean-forward="false" selection-start-line="30" selection-start-column="1" selection-end-line="30" selection-end-column="1" />
               <folding>
                 <element signature="e#85#103#0" expanded="true" />
               </folding>
@@ -86,8 +77,8 @@
       <file leaf-file-name="World.h" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/include/World.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="329">
-              <caret line="54" column="0" lean-forward="false" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
+            <state relative-caret-position="80">
+              <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
               <folding>
                 <element signature="e#87#114#0" expanded="true" />
               </folding>
@@ -95,11 +86,21 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="World.cpp" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/World.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="229">
+              <caret line="88" column="0" lean-forward="false" selection-start-line="88" selection-start-column="0" selection-end-line="88" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="SceneGraph.h" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/include/SceneGraph.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="514">
-              <caret line="81" column="0" lean-forward="true" selection-start-line="81" selection-start-column="0" selection-end-line="81" selection-end-column="0" />
+            <state relative-caret-position="329">
+              <caret line="59" column="47" lean-forward="true" selection-start-line="59" selection-start-column="47" selection-end-line="59" selection-end-column="47" />
               <folding>
                 <element signature="e#95#123#0" expanded="true" />
               </folding>
@@ -110,14 +111,14 @@
       <file leaf-file-name="SceneGraph.cpp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/SceneGraph.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="123">
-              <caret line="36" column="16" lean-forward="false" selection-start-line="36" selection-start-column="16" selection-end-line="36" selection-end-column="16" />
+            <state relative-caret-position="189">
+              <caret line="55" column="34" lean-forward="false" selection-start-line="55" selection-start-column="34" selection-end-line="55" selection-end-column="34" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ResourceHolder.h" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ResourceHolder.h" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/include/ResourceHolder.h">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="180">
@@ -136,7 +137,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="unstable" />
       </map>
     </option>
   </component>
@@ -158,15 +159,15 @@
         <option value="$PROJECT_DIR$/cpp/Game.cpp" />
         <option value="$PROJECT_DIR$/src/Game.cpp" />
         <option value="$PROJECT_DIR$/src/main.cpp" />
-        <option value="$PROJECT_DIR$/src/SceneGraph.cpp" />
-        <option value="$PROJECT_DIR$/src/World.cpp" />
         <option value="$PROJECT_DIR$/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/include/Commands.h" />
         <option value="$PROJECT_DIR$/include/Player.h" />
         <option value="$PROJECT_DIR$/include/Game.h" />
         <option value="$PROJECT_DIR$/include/World.h" />
-        <option value="$PROJECT_DIR$/include/SceneGraph.h" />
         <option value="$PROJECT_DIR$/include/ResourceHolder.h" />
+        <option value="$PROJECT_DIR$/include/SceneGraph.h" />
+        <option value="$PROJECT_DIR$/src/SceneGraph.cpp" />
+        <option value="$PROJECT_DIR$/src/World.cpp" />
       </list>
     </option>
   </component>
@@ -507,7 +508,7 @@
       <workItem from="1491594410102" duration="5164000" />
       <workItem from="1491689367597" duration="662000" />
       <workItem from="1491751183650" duration="634000" />
-      <workItem from="1491751937618" duration="4228000" />
+      <workItem from="1491751937618" duration="6361000" />
     </task>
     <task id="LOCAL-00001" summary="commit 2">
       <created>1491595177786</created>
@@ -530,11 +531,18 @@
       <option name="project" value="LOCAL" />
       <updated>1491754309073</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Commented">
+      <created>1491756188399</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1491756188399</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="85941000" />
+    <option name="totallyTimeSpent" value="88074000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="-11" width="1368" height="780" extended-state="6" />
@@ -599,7 +607,8 @@
     <MESSAGE value="commit 2" />
     <MESSAGE value="The only right commit" />
     <MESSAGE value="Player and Command interfaces added" />
-    <option name="LAST_COMMIT_MESSAGE" value="Player and Command interfaces added" />
+    <MESSAGE value="Commented" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commented" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -775,13 +784,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/World.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1860">
-          <caret line="93" column="12" lean-forward="false" selection-start-line="93" selection-start-column="12" selection-end-line="93" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -795,45 +797,17 @@
         <state relative-caret-position="289">
           <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
           <folding>
-            <element signature="e#89#117#0" expanded="true" />
+            <element signature="e#89#117#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/SceneGraph.cpp">
+    <entry file="file://$PROJECT_DIR$/include/ResourceHolder.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="123">
-          <caret line="36" column="16" lean-forward="false" selection-start-line="36" selection-start-column="16" selection-end-line="36" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/include/SceneGraph.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="514">
-          <caret line="81" column="0" lean-forward="true" selection-start-line="81" selection-start-column="0" selection-end-line="81" selection-end-column="0" />
+        <state relative-caret-position="180">
+          <caret line="10" column="40" lean-forward="false" selection-start-line="10" selection-start-column="40" selection-end-line="10" selection-end-column="40" />
           <folding>
-            <element signature="e#95#123#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/include/World.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="329">
-          <caret line="54" column="0" lean-forward="false" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
-          <folding>
-            <element signature="e#87#114#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/include/Game.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
-          <folding>
-            <element signature="e#85#103#0" expanded="true" />
+            <element signature="e#205#239#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -856,13 +830,49 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/include/ResourceHolder.h">
+    <entry file="file://$PROJECT_DIR$/include/Game.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="10" column="40" lean-forward="false" selection-start-line="10" selection-start-column="40" selection-end-line="10" selection-end-column="40" />
+        <state relative-caret-position="280">
+          <caret line="30" column="1" lean-forward="false" selection-start-line="30" selection-start-column="1" selection-end-line="30" selection-end-column="1" />
           <folding>
-            <element signature="e#205#239#0" expanded="true" />
+            <element signature="e#85#103#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SceneGraph.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="55" column="34" lean-forward="false" selection-start-line="55" selection-start-column="34" selection-end-line="55" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/SceneGraph.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="329">
+          <caret line="59" column="47" lean-forward="true" selection-start-line="59" selection-start-column="47" selection-end-line="59" selection-end-column="47" />
+          <folding>
+            <element signature="e#95#123#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/World.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding>
+            <element signature="e#87#114#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/World.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="229">
+          <caret line="88" column="0" lean-forward="false" selection-start-line="88" selection-start-column="0" selection-end-line="88" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
