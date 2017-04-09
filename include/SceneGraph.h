@@ -47,22 +47,45 @@ private:
 // Can be drawn and has some logic
 class Entity: public SceneNode{
 public:
-    explicit Entity(const sf::Texture & texture);
-    explicit Entity(const sf::Texture & texture,
-                    const sf::IntRect & rect);
+    // Caution! Avoid using this constructor like constructor of SpriteNode
+    // worldBound_ is used to process entities leaving bounds
+    explicit Entity(const sf::IntRect & worldBounds,
+                    const sf::Texture & texture);
+    Entity(const sf::IntRect & worldBounds,
+           const sf::Texture & texture,
+           const sf::IntRect & rect);
 
     void setVelocity(sf::Vector2f velocity);
     void setVelocity(float vx, float vy);
     sf::Vector2f getVelocity() const;
 
+    sf::IntRect getRectangle();
+
+    const sf::IntRect & worldBounds_;
+
 private:
+
     void drawCurrent(sf::RenderTarget & target,
                      sf::RenderStates states) const override final;
 
     void updateCurrent(sf::Time dt) override;
+    sf::Vector2f velocity_;
 
-    sf::Vector2f    velocity_;
-    sf::Sprite      sprite_;
+    sf::Sprite sprite_;
+};
+
+/******************************************************************************/
+
+class Java: public Entity{
+public:
+    explicit Java(const sf::IntRect & worldBounds,
+                  const sf::Texture & texture);
+    Java(const sf::IntRect & worldBounds,
+         const sf::Texture & texture,
+         const sf::IntRect & rect);
+
+private:
+    virtual void updateCurrent(sf::Time dt) override final;
 };
 
 /******************************************************************************/

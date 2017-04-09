@@ -40,7 +40,6 @@ private:
 
     // TODO: remove
     Entity * player_;
-    Entity * java_;
 
     // Container for textures
     TextureHolder textures_;
@@ -55,7 +54,7 @@ private:
     // Never touch it with no need
     sf::View worldView_;
     sf::RenderWindow & window_;
-    sf::FloatRect worldBounds_;
+    sf::IntRect worldBounds_;
     sf::Vector2f spawnPos_;
 };
 

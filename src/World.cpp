@@ -2,19 +2,21 @@
 // Created by valentiay on 06.02.17.
 //
 
+#include <iostream>
 #include "../include/World.h"
 
 World::World(sf::RenderWindow & window):
     window_(window),
     worldView_(window.getDefaultView()),
-    worldBounds_(0.f, 0.f, worldView_.getSize().x, worldView_.getSize().y),
+    worldBounds_(0, 0,
+                 static_cast<int>(worldView_.getSize().x),
+                 static_cast<int>(worldView_.getSize().y)),
     spawnPos_(worldView_.getSize().x / 2, worldView_.getSize().y - 100),
     isMovingDown(false),
     isMovingLeft(false),
     isMovingRight(false),
     isMovingUp(false),
     player_(nullptr),
-    java_(nullptr),
     playerSpeed(200.f)
 {
     loadTextures();
@@ -48,16 +50,15 @@ void World::buildScene(){
     layers_[Background]->attachChild(std::move(backgroundSprite));
 
     std::unique_ptr<Entity> kitten(
-            new Entity(textures_.get(Textures::ID::Floor)));
+            new Entity(worldBounds_, textures_.get(Textures::ID::Floor)));
     kitten->setPosition(100.f, 100.f);
     player_ = kitten.get();
     layers_[Characters]->attachChild(std::move(kitten));
 
-    std::unique_ptr<Entity> java(
-            new Entity(textures_.get(Textures::ID::Player)));
+    std::unique_ptr<Java> java(
+            new Java(worldBounds_, textures_.get(Textures::ID::Player)));
     java->setPosition(300.f, 300.f);
     java->setVelocity(250.f, 250.f);
-    java_ = java.get();
     layers_[Characters]->attachChild(std::move(java));
 }
 
@@ -74,17 +75,6 @@ void World::update(sf::Time dt){
     if(isMovingLeft)
         velocity.x -= playerSpeed;
     player_->setVelocity(velocity);
-
-    sf::Vector2f position = java_->getPosition();
-    velocity = java_->getVelocity();
-    if(position.x > worldBounds_.width - 217 || position.x < 0){
-        velocity.x = -velocity.x;
-        java_->setVelocity(velocity);
-    }
-    if(position.y > worldBounds_.height - 281 || position.y < 0){
-        velocity.y = -velocity.y;
-        java_->setVelocity(velocity);
-    }
 
     sceneGraph_.update(dt);
 }
