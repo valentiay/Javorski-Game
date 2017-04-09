@@ -7,6 +7,7 @@
 
 #include "ResourceHolder.h"
 #include "SceneGraph.h"
+#include "Commands.h"
 
 class World : private sf::NonCopyable{
 public:
@@ -14,6 +15,8 @@ public:
 
     void update(sf::Time dt);
     void draw();
+
+    CommandQueue & getCommandQueue();
 
     bool isMovingUp;
     bool isMovingLeft;
@@ -39,7 +42,8 @@ private:
     sf::RenderWindow & window_;
     sf::View worldView_;
     SceneNode sceneGraph_;
-    std::array<SceneNode*, LayerCount>  layers_;
+    std::array<SceneNode*, LayerCount> layers_;
+    CommandQueue commands;
 
     sf::FloatRect worldBounds_;
     sf::Vector2f spawnPos_;

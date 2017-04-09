@@ -176,7 +176,13 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/home/valentiay/programming/Javorski-Game/include/Commands.h">
+			<Option target="JavoGame"/>
+		</Unit>
 		<Unit filename="/home/valentiay/programming/Javorski-Game/include/Game.h">
+			<Option target="JavoGame"/>
+		</Unit>
+		<Unit filename="/home/valentiay/programming/Javorski-Game/include/Player.h">
 			<Option target="JavoGame"/>
 		</Unit>
 		<Unit filename="/home/valentiay/programming/Javorski-Game/include/ResourceHolder.h">

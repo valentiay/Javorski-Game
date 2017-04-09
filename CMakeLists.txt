@@ -12,7 +12,7 @@ include/World.h
         src/main.cpp
         src/World.cpp
         src/Game.cpp
-        src/SceneGraph.cpp)
+        src/SceneGraph.cpp include/Commands.h include/Player.h)
 
 add_executable(JavoGame ${SOURCE_FILES})
 

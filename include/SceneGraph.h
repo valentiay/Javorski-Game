@@ -6,6 +6,7 @@
 #define GAME_SCENENODE_H
 
 #include "SFML/Graphics.hpp"
+#include "Commands.h"
 
 class SceneNode: public sf::Transformable,
                  public sf::Drawable,
@@ -17,6 +18,7 @@ public:
     NodePtr detatchChild(const SceneNode & node);
 
     void update(sf::Time dt);
+    void onCommand(const Command & command);
 
 private:
     virtual void draw(sf::RenderTarget & target,

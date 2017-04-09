@@ -6,6 +6,7 @@
 #define GAME_GAME_H
 
 #include "World.h"
+#include "Player.h"
 
 class Game{
 public:
@@ -18,6 +19,8 @@ private:
     void handlePlayerInput(sf::Keyboard::Key key, bool isPressed);
 
     void render();
+
+    Player player;
 
     sf::RenderWindow window_;
     World world_;
