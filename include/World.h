@@ -9,6 +9,7 @@
 #include "SceneGraph.h"
 #include "Commands.h"
 
+// Stores and updates the scene
 class World : private sf::NonCopyable{
 public:
     explicit World(sf::RenderWindow & window);
@@ -18,6 +19,7 @@ public:
 
     CommandQueue & getCommandQueue();
 
+    // TODO: Remove
     bool isMovingUp;
     bool isMovingLeft;
     bool isMovingDown;
@@ -32,19 +34,27 @@ private:
         LayerCount
     };
 
+    // Initializes the scene
     void loadTextures();
     void buildScene();
 
+    // TODO: remove
     Entity * player_;
     Entity * java_;
 
+    // Container for textures
     TextureHolder textures_;
-    sf::RenderWindow & window_;
-    sf::View worldView_;
+    // Contains the scene
     SceneNode sceneGraph_;
+    // References to layers
     std::array<SceneNode*, LayerCount> layers_;
+    // Contains queue of commands
     CommandQueue commands;
 
+    // VERY IMPORTANT STUFF
+    // Never touch it with no need
+    sf::View worldView_;
+    sf::RenderWindow & window_;
     sf::FloatRect worldBounds_;
     sf::Vector2f spawnPos_;
 };

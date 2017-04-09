@@ -10,7 +10,9 @@
 
 class Player{
 public:
+    // Handles one-time events
     void handleEvent(const sf::Event & event, CommandQueue & commands);
+    // Handles real-time input
     void handleRealtimeInput(CommandQueue & commands);
 };
 

@@ -8,13 +8,14 @@
 #include "SFML/Graphics.hpp"
 #include <assert.h>
 
+// Container for resources e.g. textures
 template <class Identifier, class Resource>
 class ResourceHolder{
 public:
-    void                load(Identifier id, const std::string & filename);
+    void load(Identifier id, const std::string & filename);
 
-    Resource &          get(Identifier id);
-    const Resource &    get(Identifier id) const;
+    Resource & get(Identifier id);
+    const Resource & get(Identifier id) const;
 
 private:
     std::map<Identifier, std::unique_ptr<Resource>> resourceMap_;

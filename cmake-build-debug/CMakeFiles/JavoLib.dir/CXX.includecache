@@ -6,9 +6,25 @@
 
 #IncludeRegexTransform: 
 
+/home/valentiay/programming/Javorski-Game/include/Commands.h
+functional
+-
+queue
+-
+SFML/Graphics.hpp
+/home/valentiay/programming/Javorski-Game/include/SFML/Graphics.hpp
+
 /home/valentiay/programming/Javorski-Game/include/Game.h
 World.h
 /home/valentiay/programming/Javorski-Game/include/World.h
+Player.h
+/home/valentiay/programming/Javorski-Game/include/Player.h
+
+/home/valentiay/programming/Javorski-Game/include/Player.h
+SFML/Graphics.hpp
+/home/valentiay/programming/Javorski-Game/include/SFML/Graphics.hpp
+Commands.h
+/home/valentiay/programming/Javorski-Game/include/Commands.h
 
 /home/valentiay/programming/Javorski-Game/include/ResourceHolder.h
 SFML/Graphics.hpp
@@ -21,12 +37,16 @@ assert.h
 /home/valentiay/programming/Javorski-Game/include/SceneGraph.h
 SFML/Graphics.hpp
 /home/valentiay/programming/Javorski-Game/include/SFML/Graphics.hpp
+Commands.h
+/home/valentiay/programming/Javorski-Game/include/Commands.h
 
 /home/valentiay/programming/Javorski-Game/include/World.h
 ResourceHolder.h
 /home/valentiay/programming/Javorski-Game/include/ResourceHolder.h
 SceneGraph.h
 /home/valentiay/programming/Javorski-Game/include/SceneGraph.h
+Commands.h
+/home/valentiay/programming/Javorski-Game/include/Commands.h
 
 /home/valentiay/programming/Javorski-Game/inl/ResorceHolder.inl
 
