@@ -7,7 +7,7 @@
 Game::Game():
     window_(sf::VideoMode(1366, 768), "Javorski"),
     world_(window_),
-    dt(sf::seconds(1.f / 60.f))
+    dt_(sf::seconds(1.f / 60.f))
 {}
 
 
@@ -18,10 +18,10 @@ void Game::run(){
     while(window_.isOpen()){
         timeSinceLastUpdate += clock.restart();
         processEvents();
-        while (timeSinceLastUpdate > dt){
-            timeSinceLastUpdate -= dt;
+        while (timeSinceLastUpdate > dt_){
+            timeSinceLastUpdate -= dt_;
             processEvents();
-            world_.update(dt);
+            world_.update(dt_);
         }
         render();
     }

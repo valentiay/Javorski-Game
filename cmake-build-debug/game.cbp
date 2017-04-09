@@ -8,28 +8,28 @@
 		<Option virtualFolders="CMake Files\;CMake Files\cmake_modules\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/home/valentiay/programming/Javorski/cmake-build-debug"/>
+				<Option working_dir="/home/valentiay/programming/Javorski-Game/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/valentiay/programming/Javorski/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/valentiay/programming/Javorski/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/valentiay/programming/Javorski/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/valentiay/programming/Javorski/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/valentiay/programming/Javorski-Game/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/valentiay/programming/Javorski-Game/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/valentiay/programming/Javorski-Game/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/valentiay/programming/Javorski-Game/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/home/valentiay/programming/Javorski/cmake-build-debug"/>
+				<Option working_dir="/home/valentiay/programming/Javorski-Game/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/valentiay/programming/Javorski/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/valentiay/programming/Javorski/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/valentiay/programming/Javorski/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/valentiay/programming/Javorski/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/valentiay/programming/Javorski-Game/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/valentiay/programming/Javorski-Game/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/valentiay/programming/Javorski-Game/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/valentiay/programming/Javorski-Game/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="MySFML">
-				<Option output="/home/valentiay/programming/Javorski/cmake-build-debug/MySFML" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/valentiay/programming/Javorski/cmake-build-debug"/>
+				<Option output="/home/valentiay/programming/Javorski-Game/cmake-build-debug/MySFML" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/valentiay/programming/Javorski-Game/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -44,15 +44,15 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/valentiay/programming/Javorski/cmake-build-debug/Makefile&quot;  VERBOSE=1 MySFML"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/valentiay/programming/Javorski/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/valentiay/programming/Javorski/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/valentiay/programming/Javorski/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/valentiay/programming/Javorski-Game/cmake-build-debug/Makefile&quot;  VERBOSE=1 MySFML"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/valentiay/programming/Javorski-Game/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/valentiay/programming/Javorski-Game/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/valentiay/programming/Javorski-Game/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="MySFML/fast">
-				<Option output="/home/valentiay/programming/Javorski/cmake-build-debug/MySFML" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/valentiay/programming/Javorski/cmake-build-debug"/>
+				<Option output="/home/valentiay/programming/Javorski-Game/cmake-build-debug/MySFML" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/valentiay/programming/Javorski-Game/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -67,25 +67,25 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/valentiay/programming/Javorski/cmake-build-debug/Makefile&quot;  VERBOSE=1 MySFML/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/valentiay/programming/Javorski/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/valentiay/programming/Javorski/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/valentiay/programming/Javorski/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/valentiay/programming/Javorski-Game/cmake-build-debug/Makefile&quot;  VERBOSE=1 MySFML/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/valentiay/programming/Javorski-Game/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/valentiay/programming/Javorski-Game/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/valentiay/programming/Javorski-Game/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/home/valentiay/programming/Javorski/cmake-build-debug"/>
+				<Option working_dir="/home/valentiay/programming/Javorski-Game/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/valentiay/programming/Javorski/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/valentiay/programming/Javorski/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/valentiay/programming/Javorski/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/valentiay/programming/Javorski/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/valentiay/programming/Javorski-Game/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/valentiay/programming/Javorski-Game/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/valentiay/programming/Javorski-Game/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/valentiay/programming/Javorski-Game/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="JavoLib">
-				<Option output="/home/valentiay/programming/Javorski/cmake-build-debug/libJavoLib.a" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/valentiay/programming/Javorski/cmake-build-debug"/>
+				<Option output="/home/valentiay/programming/Javorski-Game/cmake-build-debug/libJavoLib.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/valentiay/programming/Javorski-Game/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="2"/>
 				<Option compiler="gcc"/>
@@ -100,15 +100,15 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/valentiay/programming/Javorski/cmake-build-debug/Makefile&quot;  VERBOSE=1 JavoLib"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/valentiay/programming/Javorski/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/valentiay/programming/Javorski/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/valentiay/programming/Javorski/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/valentiay/programming/Javorski-Game/cmake-build-debug/Makefile&quot;  VERBOSE=1 JavoLib"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/valentiay/programming/Javorski-Game/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/valentiay/programming/Javorski-Game/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/valentiay/programming/Javorski-Game/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="JavoLib/fast">
-				<Option output="/home/valentiay/programming/Javorski/cmake-build-debug/libJavoLib.a" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/valentiay/programming/Javorski/cmake-build-debug"/>
+				<Option output="/home/valentiay/programming/Javorski-Game/cmake-build-debug/libJavoLib.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/valentiay/programming/Javorski-Game/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="2"/>
 				<Option compiler="gcc"/>
@@ -123,15 +123,15 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/valentiay/programming/Javorski/cmake-build-debug/Makefile&quot;  VERBOSE=1 JavoLib/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/valentiay/programming/Javorski/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/valentiay/programming/Javorski/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/valentiay/programming/Javorski/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/valentiay/programming/Javorski-Game/cmake-build-debug/Makefile&quot;  VERBOSE=1 JavoLib/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/valentiay/programming/Javorski-Game/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/valentiay/programming/Javorski-Game/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/valentiay/programming/Javorski-Game/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="JavoGame">
-				<Option output="/home/valentiay/programming/Javorski/cmake-build-debug/JavoGame" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/valentiay/programming/Javorski/cmake-build-debug"/>
+				<Option output="/home/valentiay/programming/Javorski-Game/cmake-build-debug/JavoGame" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/valentiay/programming/Javorski-Game/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -146,15 +146,15 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/valentiay/programming/Javorski/cmake-build-debug/Makefile&quot;  VERBOSE=1 JavoGame"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/valentiay/programming/Javorski/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/valentiay/programming/Javorski/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/valentiay/programming/Javorski/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/valentiay/programming/Javorski-Game/cmake-build-debug/Makefile&quot;  VERBOSE=1 JavoGame"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/valentiay/programming/Javorski-Game/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/valentiay/programming/Javorski-Game/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/valentiay/programming/Javorski-Game/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="JavoGame/fast">
-				<Option output="/home/valentiay/programming/Javorski/cmake-build-debug/JavoGame" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/valentiay/programming/Javorski/cmake-build-debug"/>
+				<Option output="/home/valentiay/programming/Javorski-Game/cmake-build-debug/JavoGame" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/valentiay/programming/Javorski-Game/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -169,45 +169,45 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/valentiay/programming/Javorski/cmake-build-debug/Makefile&quot;  VERBOSE=1 JavoGame/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/valentiay/programming/Javorski/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/valentiay/programming/Javorski/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/valentiay/programming/Javorski/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/valentiay/programming/Javorski-Game/cmake-build-debug/Makefile&quot;  VERBOSE=1 JavoGame/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/valentiay/programming/Javorski-Game/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/valentiay/programming/Javorski-Game/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/valentiay/programming/Javorski-Game/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/valentiay/programming/Javorski/include/Game.h">
+		<Unit filename="/home/valentiay/programming/Javorski-Game/include/Game.h">
 			<Option target="JavoGame"/>
 		</Unit>
-		<Unit filename="/home/valentiay/programming/Javorski/include/ResourceHolder.h">
+		<Unit filename="/home/valentiay/programming/Javorski-Game/include/ResourceHolder.h">
 			<Option target="JavoGame"/>
 		</Unit>
-		<Unit filename="/home/valentiay/programming/Javorski/include/SceneGraph.h">
+		<Unit filename="/home/valentiay/programming/Javorski-Game/include/SceneGraph.h">
 			<Option target="JavoGame"/>
 		</Unit>
-		<Unit filename="/home/valentiay/programming/Javorski/include/World.h">
+		<Unit filename="/home/valentiay/programming/Javorski-Game/include/World.h">
 			<Option target="JavoGame"/>
 		</Unit>
-		<Unit filename="/home/valentiay/programming/Javorski/src/Game.cpp">
+		<Unit filename="/home/valentiay/programming/Javorski-Game/src/Game.cpp">
 			<Option target="JavoLib"/>
 			<Option target="JavoGame"/>
 		</Unit>
-		<Unit filename="/home/valentiay/programming/Javorski/src/SceneGraph.cpp">
+		<Unit filename="/home/valentiay/programming/Javorski-Game/src/SceneGraph.cpp">
 			<Option target="JavoLib"/>
 			<Option target="JavoGame"/>
 		</Unit>
-		<Unit filename="/home/valentiay/programming/Javorski/src/World.cpp">
+		<Unit filename="/home/valentiay/programming/Javorski-Game/src/World.cpp">
 			<Option target="JavoLib"/>
 			<Option target="JavoGame"/>
 		</Unit>
-		<Unit filename="/home/valentiay/programming/Javorski/src/main.cpp">
+		<Unit filename="/home/valentiay/programming/Javorski-Game/src/main.cpp">
 			<Option target="MySFML"/>
 			<Option target="JavoGame"/>
 		</Unit>
-		<Unit filename="/home/valentiay/programming/Javorski/CMakeLists.txt">
+		<Unit filename="/home/valentiay/programming/Javorski-Game/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
-		<Unit filename="/home/valentiay/programming/Javorski/cmake_modules/FindSFML.cmake">
+		<Unit filename="/home/valentiay/programming/Javorski-Game/cmake_modules/FindSFML.cmake">
 			<Option virtualFolder="CMake Files\cmake_modules\"/>
 		</Unit>
 	</Project>

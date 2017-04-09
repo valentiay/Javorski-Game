@@ -4,9 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/valentiay/programming/Javorski/src/Game.cpp" "/home/valentiay/programming/Javorski/cmake-build-debug/CMakeFiles/JavoLib.dir/src/Game.cpp.o"
-  "/home/valentiay/programming/Javorski/src/SceneGraph.cpp" "/home/valentiay/programming/Javorski/cmake-build-debug/CMakeFiles/JavoLib.dir/src/SceneGraph.cpp.o"
-  "/home/valentiay/programming/Javorski/src/World.cpp" "/home/valentiay/programming/Javorski/cmake-build-debug/CMakeFiles/JavoLib.dir/src/World.cpp.o"
+  "/home/valentiay/programming/Javorski-Game/src/Game.cpp" "/home/valentiay/programming/Javorski-Game/cmake-build-debug/CMakeFiles/JavoLib.dir/src/Game.cpp.o"
+  "/home/valentiay/programming/Javorski-Game/src/SceneGraph.cpp" "/home/valentiay/programming/Javorski-Game/cmake-build-debug/CMakeFiles/JavoLib.dir/src/SceneGraph.cpp.o"
+  "/home/valentiay/programming/Javorski-Game/src/World.cpp" "/home/valentiay/programming/Javorski-Game/cmake-build-debug/CMakeFiles/JavoLib.dir/src/World.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

@@ -1,4 +1,4 @@
-# Install script for directory: /home/valentiay/programming/Javorski
+# Install script for directory: /home/valentiay/programming/Javorski-Game
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -40,5 +40,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/valentiay/programming/Javorski/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/valentiay/programming/Javorski-Game/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

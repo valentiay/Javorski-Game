@@ -43,10 +43,10 @@ RM = /home/valentiay/clion-2017.1/bin/cmake/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/valentiay/programming/Javorski
+CMAKE_SOURCE_DIR = /home/valentiay/programming/Javorski-Game
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/valentiay/programming/Javorski/cmake-build-debug
+CMAKE_BINARY_DIR = /home/valentiay/programming/Javorski-Game/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/JavoGame.dir/depend.make
@@ -59,16 +59,16 @@ include CMakeFiles/JavoGame.dir/flags.make
 
 CMakeFiles/JavoGame.dir/src/main.cpp.o: CMakeFiles/JavoGame.dir/flags.make
 CMakeFiles/JavoGame.dir/src/main.cpp.o: ../src/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/valentiay/programming/Javorski/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/JavoGame.dir/src/main.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/JavoGame.dir/src/main.cpp.o -c /home/valentiay/programming/Javorski/src/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/valentiay/programming/Javorski-Game/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/JavoGame.dir/src/main.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/JavoGame.dir/src/main.cpp.o -c /home/valentiay/programming/Javorski-Game/src/main.cpp
 
 CMakeFiles/JavoGame.dir/src/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/JavoGame.dir/src/main.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/valentiay/programming/Javorski/src/main.cpp > CMakeFiles/JavoGame.dir/src/main.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/valentiay/programming/Javorski-Game/src/main.cpp > CMakeFiles/JavoGame.dir/src/main.cpp.i
 
 CMakeFiles/JavoGame.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/JavoGame.dir/src/main.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/valentiay/programming/Javorski/src/main.cpp -o CMakeFiles/JavoGame.dir/src/main.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/valentiay/programming/Javorski-Game/src/main.cpp -o CMakeFiles/JavoGame.dir/src/main.cpp.s
 
 CMakeFiles/JavoGame.dir/src/main.cpp.o.requires:
 
@@ -83,16 +83,16 @@ CMakeFiles/JavoGame.dir/src/main.cpp.o.provides.build: CMakeFiles/JavoGame.dir/s
 
 CMakeFiles/JavoGame.dir/src/World.cpp.o: CMakeFiles/JavoGame.dir/flags.make
 CMakeFiles/JavoGame.dir/src/World.cpp.o: ../src/World.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/valentiay/programming/Javorski/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/JavoGame.dir/src/World.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/JavoGame.dir/src/World.cpp.o -c /home/valentiay/programming/Javorski/src/World.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/valentiay/programming/Javorski-Game/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/JavoGame.dir/src/World.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/JavoGame.dir/src/World.cpp.o -c /home/valentiay/programming/Javorski-Game/src/World.cpp
 
 CMakeFiles/JavoGame.dir/src/World.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/JavoGame.dir/src/World.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/valentiay/programming/Javorski/src/World.cpp > CMakeFiles/JavoGame.dir/src/World.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/valentiay/programming/Javorski-Game/src/World.cpp > CMakeFiles/JavoGame.dir/src/World.cpp.i
 
 CMakeFiles/JavoGame.dir/src/World.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/JavoGame.dir/src/World.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/valentiay/programming/Javorski/src/World.cpp -o CMakeFiles/JavoGame.dir/src/World.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/valentiay/programming/Javorski-Game/src/World.cpp -o CMakeFiles/JavoGame.dir/src/World.cpp.s
 
 CMakeFiles/JavoGame.dir/src/World.cpp.o.requires:
 
@@ -107,16 +107,16 @@ CMakeFiles/JavoGame.dir/src/World.cpp.o.provides.build: CMakeFiles/JavoGame.dir/
 
 CMakeFiles/JavoGame.dir/src/Game.cpp.o: CMakeFiles/JavoGame.dir/flags.make
 CMakeFiles/JavoGame.dir/src/Game.cpp.o: ../src/Game.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/valentiay/programming/Javorski/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/JavoGame.dir/src/Game.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/JavoGame.dir/src/Game.cpp.o -c /home/valentiay/programming/Javorski/src/Game.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/valentiay/programming/Javorski-Game/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/JavoGame.dir/src/Game.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/JavoGame.dir/src/Game.cpp.o -c /home/valentiay/programming/Javorski-Game/src/Game.cpp
 
 CMakeFiles/JavoGame.dir/src/Game.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/JavoGame.dir/src/Game.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/valentiay/programming/Javorski/src/Game.cpp > CMakeFiles/JavoGame.dir/src/Game.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/valentiay/programming/Javorski-Game/src/Game.cpp > CMakeFiles/JavoGame.dir/src/Game.cpp.i
 
 CMakeFiles/JavoGame.dir/src/Game.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/JavoGame.dir/src/Game.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/valentiay/programming/Javorski/src/Game.cpp -o CMakeFiles/JavoGame.dir/src/Game.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/valentiay/programming/Javorski-Game/src/Game.cpp -o CMakeFiles/JavoGame.dir/src/Game.cpp.s
 
 CMakeFiles/JavoGame.dir/src/Game.cpp.o.requires:
 
@@ -131,16 +131,16 @@ CMakeFiles/JavoGame.dir/src/Game.cpp.o.provides.build: CMakeFiles/JavoGame.dir/s
 
 CMakeFiles/JavoGame.dir/src/SceneGraph.cpp.o: CMakeFiles/JavoGame.dir/flags.make
 CMakeFiles/JavoGame.dir/src/SceneGraph.cpp.o: ../src/SceneGraph.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/valentiay/programming/Javorski/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/JavoGame.dir/src/SceneGraph.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/JavoGame.dir/src/SceneGraph.cpp.o -c /home/valentiay/programming/Javorski/src/SceneGraph.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/valentiay/programming/Javorski-Game/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/JavoGame.dir/src/SceneGraph.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/JavoGame.dir/src/SceneGraph.cpp.o -c /home/valentiay/programming/Javorski-Game/src/SceneGraph.cpp
 
 CMakeFiles/JavoGame.dir/src/SceneGraph.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/JavoGame.dir/src/SceneGraph.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/valentiay/programming/Javorski/src/SceneGraph.cpp > CMakeFiles/JavoGame.dir/src/SceneGraph.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/valentiay/programming/Javorski-Game/src/SceneGraph.cpp > CMakeFiles/JavoGame.dir/src/SceneGraph.cpp.i
 
 CMakeFiles/JavoGame.dir/src/SceneGraph.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/JavoGame.dir/src/SceneGraph.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/valentiay/programming/Javorski/src/SceneGraph.cpp -o CMakeFiles/JavoGame.dir/src/SceneGraph.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/valentiay/programming/Javorski-Game/src/SceneGraph.cpp -o CMakeFiles/JavoGame.dir/src/SceneGraph.cpp.s
 
 CMakeFiles/JavoGame.dir/src/SceneGraph.cpp.o.requires:
 
@@ -169,7 +169,7 @@ JavoGame: CMakeFiles/JavoGame.dir/src/Game.cpp.o
 JavoGame: CMakeFiles/JavoGame.dir/src/SceneGraph.cpp.o
 JavoGame: CMakeFiles/JavoGame.dir/build.make
 JavoGame: CMakeFiles/JavoGame.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/valentiay/programming/Javorski/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable JavoGame"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/valentiay/programming/Javorski-Game/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable JavoGame"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/JavoGame.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -189,6 +189,6 @@ CMakeFiles/JavoGame.dir/clean:
 .PHONY : CMakeFiles/JavoGame.dir/clean
 
 CMakeFiles/JavoGame.dir/depend:
-	cd /home/valentiay/programming/Javorski/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/valentiay/programming/Javorski /home/valentiay/programming/Javorski /home/valentiay/programming/Javorski/cmake-build-debug /home/valentiay/programming/Javorski/cmake-build-debug /home/valentiay/programming/Javorski/cmake-build-debug/CMakeFiles/JavoGame.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/valentiay/programming/Javorski-Game/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/valentiay/programming/Javorski-Game /home/valentiay/programming/Javorski-Game /home/valentiay/programming/Javorski-Game/cmake-build-debug /home/valentiay/programming/Javorski-Game/cmake-build-debug /home/valentiay/programming/Javorski-Game/cmake-build-debug/CMakeFiles/JavoGame.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/JavoGame.dir/depend
 

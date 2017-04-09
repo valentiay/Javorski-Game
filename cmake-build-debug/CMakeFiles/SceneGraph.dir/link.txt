@@ -1,2 +1,0 @@
-/usr/bin/ar qc libSceneGraph.a  CMakeFiles/SceneGraph.dir/cpp/SceneGraph.cpp.o
-/usr/bin/ranlib libSceneGraph.a

@@ -3,12 +3,13 @@ project(game)
 
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11")
 
-set(SOURCE_FILES src/main.cpp
+set(SOURCE_FILES
         include/ResourceHolder.h
-        include/World.h
+include/World.h
         include/SceneGraph.h
         include/Game.h
 
+        src/main.cpp
         src/World.cpp
         src/Game.cpp
         src/SceneGraph.cpp)

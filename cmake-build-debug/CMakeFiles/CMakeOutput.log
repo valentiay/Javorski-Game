@@ -1,4 +1,4 @@
-The system is: Linux - 4.8.0-41-generic - x86_64
+The system is: Linux - 4.8.0-46-generic - x86_64
 Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
 Compiler: /usr/bin/cc 
 Build flags: 
@@ -10,7 +10,7 @@ The output was:
 
 Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
 
-The C compiler identification is GNU, found in "/home/valentiay/programming/Javorski/cmake-build-debug/CMakeFiles/3.7.1/CompilerIdC/a.out"
+The C compiler identification is GNU, found in "/home/valentiay/programming/Javorski-Game/cmake-build-debug/CMakeFiles/3.7.1/CompilerIdC/a.out"
 
 Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
 Compiler: /usr/bin/c++ 
@@ -23,33 +23,33 @@ The output was:
 
 Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
 
-The CXX compiler identification is GNU, found in "/home/valentiay/programming/Javorski/cmake-build-debug/CMakeFiles/3.7.1/CompilerIdCXX/a.out"
+The CXX compiler identification is GNU, found in "/home/valentiay/programming/Javorski-Game/cmake-build-debug/CMakeFiles/3.7.1/CompilerIdCXX/a.out"
 
 Determining if the C compiler works passed with the following output:
-Change Dir: /home/valentiay/programming/Javorski/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /home/valentiay/programming/Javorski-Game/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_22570/fast"
-/usr/bin/make -f CMakeFiles/cmTC_22570.dir/build.make CMakeFiles/cmTC_22570.dir/build
-make[1]: вход в каталог «/home/valentiay/programming/Javorski/cmake-build-debug/CMakeFiles/CMakeTmp»
-Building C object CMakeFiles/cmTC_22570.dir/testCCompiler.c.o
-/usr/bin/cc     -o CMakeFiles/cmTC_22570.dir/testCCompiler.c.o   -c /home/valentiay/programming/Javorski/cmake-build-debug/CMakeFiles/CMakeTmp/testCCompiler.c
-Linking C executable cmTC_22570
-/home/valentiay/clion-2017.1/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_22570.dir/link.txt --verbose=1
-/usr/bin/cc       CMakeFiles/cmTC_22570.dir/testCCompiler.c.o  -o cmTC_22570 
-make[1]: выход из каталога «/home/valentiay/programming/Javorski/cmake-build-debug/CMakeFiles/CMakeTmp»
+Run Build Command:"/usr/bin/make" "cmTC_e175b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_e175b.dir/build.make CMakeFiles/cmTC_e175b.dir/build
+make[1]: вход в каталог «/home/valentiay/programming/Javorski-Game/cmake-build-debug/CMakeFiles/CMakeTmp»
+Building C object CMakeFiles/cmTC_e175b.dir/testCCompiler.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_e175b.dir/testCCompiler.c.o   -c /home/valentiay/programming/Javorski-Game/cmake-build-debug/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_e175b
+/home/valentiay/clion-2017.1/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e175b.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_e175b.dir/testCCompiler.c.o  -o cmTC_e175b 
+make[1]: выход из каталога «/home/valentiay/programming/Javorski-Game/cmake-build-debug/CMakeFiles/CMakeTmp»
 
 
 Detecting C compiler ABI info compiled with the following output:
-Change Dir: /home/valentiay/programming/Javorski/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /home/valentiay/programming/Javorski-Game/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_bee5a/fast"
-/usr/bin/make -f CMakeFiles/cmTC_bee5a.dir/build.make CMakeFiles/cmTC_bee5a.dir/build
-make[1]: вход в каталог «/home/valentiay/programming/Javorski/cmake-build-debug/CMakeFiles/CMakeTmp»
-Building C object CMakeFiles/cmTC_bee5a.dir/CMakeCCompilerABI.c.o
-/usr/bin/cc     -o CMakeFiles/cmTC_bee5a.dir/CMakeCCompilerABI.c.o   -c /home/valentiay/clion-2017.1/bin/cmake/share/cmake-3.7/Modules/CMakeCCompilerABI.c
-Linking C executable cmTC_bee5a
-/home/valentiay/clion-2017.1/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bee5a.dir/link.txt --verbose=1
-/usr/bin/cc      -v CMakeFiles/cmTC_bee5a.dir/CMakeCCompilerABI.c.o  -o cmTC_bee5a  
+Run Build Command:"/usr/bin/make" "cmTC_df411/fast"
+/usr/bin/make -f CMakeFiles/cmTC_df411.dir/build.make CMakeFiles/cmTC_df411.dir/build
+make[1]: вход в каталог «/home/valentiay/programming/Javorski-Game/cmake-build-debug/CMakeFiles/CMakeTmp»
+Building C object CMakeFiles/cmTC_df411.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_df411.dir/CMakeCCompilerABI.c.o   -c /home/valentiay/clion-2017.1/bin/cmake/share/cmake-3.7/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_df411
+/home/valentiay/clion-2017.1/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_df411.dir/link.txt --verbose=1
+/usr/bin/cc      -v CMakeFiles/cmTC_df411.dir/CMakeCCompilerABI.c.o  -o cmTC_df411  
 Using built-in specs.
 COLLECT_GCC=/usr/bin/cc
 COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper
@@ -59,23 +59,23 @@ Thread model: posix
 gcc version 5.4.0 20160609 (Ubuntu 5.4.0-6ubuntu1~16.04.4) 
 COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/
 LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_bee5a' '-mtune=generic' '-march=x86-64'
- /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/ccxtwJH9.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_bee5a /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_bee5a.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o
-make[1]: выход из каталога «/home/valentiay/programming/Javorski/cmake-build-debug/CMakeFiles/CMakeTmp»
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_df411' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/ccFmJtNv.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_df411 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_df411.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o
+make[1]: выход из каталога «/home/valentiay/programming/Javorski-Game/cmake-build-debug/CMakeFiles/CMakeTmp»
 
 
 Parsed C implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /home/valentiay/programming/Javorski/cmake-build-debug/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: /home/valentiay/programming/Javorski-Game/cmake-build-debug/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_bee5a/fast"]
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_bee5a.dir/build.make CMakeFiles/cmTC_bee5a.dir/build]
-  ignore line: [make[1]: вход в каталог «/home/valentiay/programming/Javorski/cmake-build-debug/CMakeFiles/CMakeTmp»]
-  ignore line: [Building C object CMakeFiles/cmTC_bee5a.dir/CMakeCCompilerABI.c.o]
-  ignore line: [/usr/bin/cc     -o CMakeFiles/cmTC_bee5a.dir/CMakeCCompilerABI.c.o   -c /home/valentiay/clion-2017.1/bin/cmake/share/cmake-3.7/Modules/CMakeCCompilerABI.c]
-  ignore line: [Linking C executable cmTC_bee5a]
-  ignore line: [/home/valentiay/clion-2017.1/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bee5a.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/cc      -v CMakeFiles/cmTC_bee5a.dir/CMakeCCompilerABI.c.o  -o cmTC_bee5a  ]
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_df411/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_df411.dir/build.make CMakeFiles/cmTC_df411.dir/build]
+  ignore line: [make[1]: вход в каталог «/home/valentiay/programming/Javorski-Game/cmake-build-debug/CMakeFiles/CMakeTmp»]
+  ignore line: [Building C object CMakeFiles/cmTC_df411.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc     -o CMakeFiles/cmTC_df411.dir/CMakeCCompilerABI.c.o   -c /home/valentiay/clion-2017.1/bin/cmake/share/cmake-3.7/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTC_df411]
+  ignore line: [/home/valentiay/clion-2017.1/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_df411.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc      -v CMakeFiles/cmTC_df411.dir/CMakeCCompilerABI.c.o  -o cmTC_df411  ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/cc]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper]
@@ -85,13 +85,13 @@ Parsed C implicit link information from above output:
   ignore line: [gcc version 5.4.0 20160609 (Ubuntu 5.4.0-6ubuntu1~16.04.4) ]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_bee5a' '-mtune=generic' '-march=x86-64']
-  link line: [ /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/ccxtwJH9.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_bee5a /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_bee5a.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_df411' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/ccFmJtNv.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_df411 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_df411.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o]
     arg [/usr/lib/gcc/x86_64-linux-gnu/5/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/ccxtwJH9.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccFmJtNv.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -108,7 +108,7 @@ Parsed C implicit link information from above output:
     arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
     arg [-zrelro] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_bee5a] ==> ignore
+    arg [cmTC_df411] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o] ==> ignore
@@ -120,7 +120,7 @@ Parsed C implicit link information from above output:
     arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
     arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
     arg [-L/usr/lib/gcc/x86_64-linux-gnu/5/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../..]
-    arg [CMakeFiles/cmTC_bee5a.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [CMakeFiles/cmTC_df411.dir/CMakeCCompilerABI.c.o] ==> ignore
     arg [-lgcc] ==> lib [gcc]
     arg [--as-needed] ==> ignore
     arg [-lgcc_s] ==> lib [gcc_s]
@@ -152,17 +152,17 @@ Parsed C implicit link information from above output:
 
 
 Detecting C [-std=c11] compiler features compiled with the following output:
-Change Dir: /home/valentiay/programming/Javorski/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /home/valentiay/programming/Javorski-Game/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_2e28c/fast"
-/usr/bin/make -f CMakeFiles/cmTC_2e28c.dir/build.make CMakeFiles/cmTC_2e28c.dir/build
-make[1]: вход в каталог «/home/valentiay/programming/Javorski/cmake-build-debug/CMakeFiles/CMakeTmp»
-Building C object CMakeFiles/cmTC_2e28c.dir/feature_tests.c.o
-/usr/bin/cc    -std=c11 -o CMakeFiles/cmTC_2e28c.dir/feature_tests.c.o   -c /home/valentiay/programming/Javorski/cmake-build-debug/CMakeFiles/feature_tests.c
-Linking C executable cmTC_2e28c
-/home/valentiay/clion-2017.1/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2e28c.dir/link.txt --verbose=1
-/usr/bin/cc       CMakeFiles/cmTC_2e28c.dir/feature_tests.c.o  -o cmTC_2e28c 
-make[1]: выход из каталога «/home/valentiay/programming/Javorski/cmake-build-debug/CMakeFiles/CMakeTmp»
+Run Build Command:"/usr/bin/make" "cmTC_dad61/fast"
+/usr/bin/make -f CMakeFiles/cmTC_dad61.dir/build.make CMakeFiles/cmTC_dad61.dir/build
+make[1]: вход в каталог «/home/valentiay/programming/Javorski-Game/cmake-build-debug/CMakeFiles/CMakeTmp»
+Building C object CMakeFiles/cmTC_dad61.dir/feature_tests.c.o
+/usr/bin/cc    -std=c11 -o CMakeFiles/cmTC_dad61.dir/feature_tests.c.o   -c /home/valentiay/programming/Javorski-Game/cmake-build-debug/CMakeFiles/feature_tests.c
+Linking C executable cmTC_dad61
+/home/valentiay/clion-2017.1/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dad61.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_dad61.dir/feature_tests.c.o  -o cmTC_dad61 
+make[1]: выход из каталога «/home/valentiay/programming/Javorski-Game/cmake-build-debug/CMakeFiles/CMakeTmp»
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -172,17 +172,17 @@ make[1]: выход из каталога «/home/valentiay/programming/Javorski
 
 
 Detecting C [-std=c99] compiler features compiled with the following output:
-Change Dir: /home/valentiay/programming/Javorski/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /home/valentiay/programming/Javorski-Game/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_85e62/fast"
-/usr/bin/make -f CMakeFiles/cmTC_85e62.dir/build.make CMakeFiles/cmTC_85e62.dir/build
-make[1]: вход в каталог «/home/valentiay/programming/Javorski/cmake-build-debug/CMakeFiles/CMakeTmp»
-Building C object CMakeFiles/cmTC_85e62.dir/feature_tests.c.o
-/usr/bin/cc    -std=c99 -o CMakeFiles/cmTC_85e62.dir/feature_tests.c.o   -c /home/valentiay/programming/Javorski/cmake-build-debug/CMakeFiles/feature_tests.c
-Linking C executable cmTC_85e62
-/home/valentiay/clion-2017.1/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_85e62.dir/link.txt --verbose=1
-/usr/bin/cc       CMakeFiles/cmTC_85e62.dir/feature_tests.c.o  -o cmTC_85e62 
-make[1]: выход из каталога «/home/valentiay/programming/Javorski/cmake-build-debug/CMakeFiles/CMakeTmp»
+Run Build Command:"/usr/bin/make" "cmTC_a50d7/fast"
+/usr/bin/make -f CMakeFiles/cmTC_a50d7.dir/build.make CMakeFiles/cmTC_a50d7.dir/build
+make[1]: вход в каталог «/home/valentiay/programming/Javorski-Game/cmake-build-debug/CMakeFiles/CMakeTmp»
+Building C object CMakeFiles/cmTC_a50d7.dir/feature_tests.c.o
+/usr/bin/cc    -std=c99 -o CMakeFiles/cmTC_a50d7.dir/feature_tests.c.o   -c /home/valentiay/programming/Javorski-Game/cmake-build-debug/CMakeFiles/feature_tests.c
+Linking C executable cmTC_a50d7
+/home/valentiay/clion-2017.1/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a50d7.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_a50d7.dir/feature_tests.c.o  -o cmTC_a50d7 
+make[1]: выход из каталога «/home/valentiay/programming/Javorski-Game/cmake-build-debug/CMakeFiles/CMakeTmp»
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -192,17 +192,17 @@ make[1]: выход из каталога «/home/valentiay/programming/Javorski
 
 
 Detecting C [-std=c90] compiler features compiled with the following output:
-Change Dir: /home/valentiay/programming/Javorski/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /home/valentiay/programming/Javorski-Game/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_13a25/fast"
-/usr/bin/make -f CMakeFiles/cmTC_13a25.dir/build.make CMakeFiles/cmTC_13a25.dir/build
-make[1]: вход в каталог «/home/valentiay/programming/Javorski/cmake-build-debug/CMakeFiles/CMakeTmp»
-Building C object CMakeFiles/cmTC_13a25.dir/feature_tests.c.o
-/usr/bin/cc    -std=c90 -o CMakeFiles/cmTC_13a25.dir/feature_tests.c.o   -c /home/valentiay/programming/Javorski/cmake-build-debug/CMakeFiles/feature_tests.c
-Linking C executable cmTC_13a25
-/home/valentiay/clion-2017.1/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_13a25.dir/link.txt --verbose=1
-/usr/bin/cc       CMakeFiles/cmTC_13a25.dir/feature_tests.c.o  -o cmTC_13a25 
-make[1]: выход из каталога «/home/valentiay/programming/Javorski/cmake-build-debug/CMakeFiles/CMakeTmp»
+Run Build Command:"/usr/bin/make" "cmTC_b0053/fast"
+/usr/bin/make -f CMakeFiles/cmTC_b0053.dir/build.make CMakeFiles/cmTC_b0053.dir/build
+make[1]: вход в каталог «/home/valentiay/programming/Javorski-Game/cmake-build-debug/CMakeFiles/CMakeTmp»
+Building C object CMakeFiles/cmTC_b0053.dir/feature_tests.c.o
+/usr/bin/cc    -std=c90 -o CMakeFiles/cmTC_b0053.dir/feature_tests.c.o   -c /home/valentiay/programming/Javorski-Game/cmake-build-debug/CMakeFiles/feature_tests.c
+Linking C executable cmTC_b0053
+/home/valentiay/clion-2017.1/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b0053.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_b0053.dir/feature_tests.c.o  -o cmTC_b0053 
+make[1]: выход из каталога «/home/valentiay/programming/Javorski-Game/cmake-build-debug/CMakeFiles/CMakeTmp»
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -210,30 +210,30 @@ make[1]: выход из каталога «/home/valentiay/programming/Javorski
     Feature record: C_FEATURE:0c_static_assert
     Feature record: C_FEATURE:0c_variadic_macros
 Determining if the CXX compiler works passed with the following output:
-Change Dir: /home/valentiay/programming/Javorski/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /home/valentiay/programming/Javorski-Game/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_b38af/fast"
-/usr/bin/make -f CMakeFiles/cmTC_b38af.dir/build.make CMakeFiles/cmTC_b38af.dir/build
-make[1]: вход в каталог «/home/valentiay/programming/Javorski/cmake-build-debug/CMakeFiles/CMakeTmp»
-Building CXX object CMakeFiles/cmTC_b38af.dir/testCXXCompiler.cxx.o
-/usr/bin/c++      -o CMakeFiles/cmTC_b38af.dir/testCXXCompiler.cxx.o -c /home/valentiay/programming/Javorski/cmake-build-debug/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
-Linking CXX executable cmTC_b38af
-/home/valentiay/clion-2017.1/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b38af.dir/link.txt --verbose=1
-/usr/bin/c++        CMakeFiles/cmTC_b38af.dir/testCXXCompiler.cxx.o  -o cmTC_b38af 
-make[1]: выход из каталога «/home/valentiay/programming/Javorski/cmake-build-debug/CMakeFiles/CMakeTmp»
+Run Build Command:"/usr/bin/make" "cmTC_1ba1f/fast"
+/usr/bin/make -f CMakeFiles/cmTC_1ba1f.dir/build.make CMakeFiles/cmTC_1ba1f.dir/build
+make[1]: вход в каталог «/home/valentiay/programming/Javorski-Game/cmake-build-debug/CMakeFiles/CMakeTmp»
+Building CXX object CMakeFiles/cmTC_1ba1f.dir/testCXXCompiler.cxx.o
+/usr/bin/c++      -o CMakeFiles/cmTC_1ba1f.dir/testCXXCompiler.cxx.o -c /home/valentiay/programming/Javorski-Game/cmake-build-debug/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_1ba1f
+/home/valentiay/clion-2017.1/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1ba1f.dir/link.txt --verbose=1
+/usr/bin/c++        CMakeFiles/cmTC_1ba1f.dir/testCXXCompiler.cxx.o  -o cmTC_1ba1f 
+make[1]: выход из каталога «/home/valentiay/programming/Javorski-Game/cmake-build-debug/CMakeFiles/CMakeTmp»
 
 
 Detecting CXX compiler ABI info compiled with the following output:
-Change Dir: /home/valentiay/programming/Javorski/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /home/valentiay/programming/Javorski-Game/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_f18e2/fast"
-/usr/bin/make -f CMakeFiles/cmTC_f18e2.dir/build.make CMakeFiles/cmTC_f18e2.dir/build
-make[1]: вход в каталог «/home/valentiay/programming/Javorski/cmake-build-debug/CMakeFiles/CMakeTmp»
-Building CXX object CMakeFiles/cmTC_f18e2.dir/CMakeCXXCompilerABI.cpp.o
-/usr/bin/c++      -o CMakeFiles/cmTC_f18e2.dir/CMakeCXXCompilerABI.cpp.o -c /home/valentiay/clion-2017.1/bin/cmake/share/cmake-3.7/Modules/CMakeCXXCompilerABI.cpp
-Linking CXX executable cmTC_f18e2
-/home/valentiay/clion-2017.1/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f18e2.dir/link.txt --verbose=1
-/usr/bin/c++       -v CMakeFiles/cmTC_f18e2.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_f18e2  
+Run Build Command:"/usr/bin/make" "cmTC_43bb6/fast"
+/usr/bin/make -f CMakeFiles/cmTC_43bb6.dir/build.make CMakeFiles/cmTC_43bb6.dir/build
+make[1]: вход в каталог «/home/valentiay/programming/Javorski-Game/cmake-build-debug/CMakeFiles/CMakeTmp»
+Building CXX object CMakeFiles/cmTC_43bb6.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/c++      -o CMakeFiles/cmTC_43bb6.dir/CMakeCXXCompilerABI.cpp.o -c /home/valentiay/clion-2017.1/bin/cmake/share/cmake-3.7/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_43bb6
+/home/valentiay/clion-2017.1/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_43bb6.dir/link.txt --verbose=1
+/usr/bin/c++       -v CMakeFiles/cmTC_43bb6.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_43bb6  
 Using built-in specs.
 COLLECT_GCC=/usr/bin/c++
 COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper
@@ -243,23 +243,23 @@ Thread model: posix
 gcc version 5.4.0 20160609 (Ubuntu 5.4.0-6ubuntu1~16.04.4) 
 COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/
 LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_f18e2' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
- /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/ccjmPz4H.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_f18e2 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_f18e2.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o
-make[1]: выход из каталога «/home/valentiay/programming/Javorski/cmake-build-debug/CMakeFiles/CMakeTmp»
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_43bb6' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/ccWDZK2J.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_43bb6 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_43bb6.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o
+make[1]: выход из каталога «/home/valentiay/programming/Javorski-Game/cmake-build-debug/CMakeFiles/CMakeTmp»
 
 
 Parsed CXX implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /home/valentiay/programming/Javorski/cmake-build-debug/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: /home/valentiay/programming/Javorski-Game/cmake-build-debug/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_f18e2/fast"]
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_f18e2.dir/build.make CMakeFiles/cmTC_f18e2.dir/build]
-  ignore line: [make[1]: вход в каталог «/home/valentiay/programming/Javorski/cmake-build-debug/CMakeFiles/CMakeTmp»]
-  ignore line: [Building CXX object CMakeFiles/cmTC_f18e2.dir/CMakeCXXCompilerABI.cpp.o]
-  ignore line: [/usr/bin/c++      -o CMakeFiles/cmTC_f18e2.dir/CMakeCXXCompilerABI.cpp.o -c /home/valentiay/clion-2017.1/bin/cmake/share/cmake-3.7/Modules/CMakeCXXCompilerABI.cpp]
-  ignore line: [Linking CXX executable cmTC_f18e2]
-  ignore line: [/home/valentiay/clion-2017.1/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f18e2.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/c++       -v CMakeFiles/cmTC_f18e2.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_f18e2  ]
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_43bb6/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_43bb6.dir/build.make CMakeFiles/cmTC_43bb6.dir/build]
+  ignore line: [make[1]: вход в каталог «/home/valentiay/programming/Javorski-Game/cmake-build-debug/CMakeFiles/CMakeTmp»]
+  ignore line: [Building CXX object CMakeFiles/cmTC_43bb6.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/c++      -o CMakeFiles/cmTC_43bb6.dir/CMakeCXXCompilerABI.cpp.o -c /home/valentiay/clion-2017.1/bin/cmake/share/cmake-3.7/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTC_43bb6]
+  ignore line: [/home/valentiay/clion-2017.1/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_43bb6.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/c++       -v CMakeFiles/cmTC_43bb6.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_43bb6  ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/c++]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper]
@@ -269,13 +269,13 @@ Parsed CXX implicit link information from above output:
   ignore line: [gcc version 5.4.0 20160609 (Ubuntu 5.4.0-6ubuntu1~16.04.4) ]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_f18e2' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
-  link line: [ /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/ccjmPz4H.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_f18e2 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_f18e2.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_43bb6' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/ccWDZK2J.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_43bb6 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_43bb6.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o]
     arg [/usr/lib/gcc/x86_64-linux-gnu/5/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/ccjmPz4H.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccWDZK2J.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -292,7 +292,7 @@ Parsed CXX implicit link information from above output:
     arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
     arg [-zrelro] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_f18e2] ==> ignore
+    arg [cmTC_43bb6] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o] ==> ignore
@@ -304,7 +304,7 @@ Parsed CXX implicit link information from above output:
     arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
     arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
     arg [-L/usr/lib/gcc/x86_64-linux-gnu/5/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../..]
-    arg [CMakeFiles/cmTC_f18e2.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [CMakeFiles/cmTC_43bb6.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
     arg [-lstdc++] ==> lib [stdc++]
     arg [-lm] ==> lib [m]
     arg [-lgcc_s] ==> lib [gcc_s]
@@ -334,17 +334,17 @@ Parsed CXX implicit link information from above output:
 
 
 Detecting CXX [-std=c++14] compiler features compiled with the following output:
-Change Dir: /home/valentiay/programming/Javorski/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /home/valentiay/programming/Javorski-Game/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_cfa5c/fast"
-/usr/bin/make -f CMakeFiles/cmTC_cfa5c.dir/build.make CMakeFiles/cmTC_cfa5c.dir/build
-make[1]: вход в каталог «/home/valentiay/programming/Javorski/cmake-build-debug/CMakeFiles/CMakeTmp»
-Building CXX object CMakeFiles/cmTC_cfa5c.dir/feature_tests.cxx.o
-/usr/bin/c++     -std=c++14 -o CMakeFiles/cmTC_cfa5c.dir/feature_tests.cxx.o -c /home/valentiay/programming/Javorski/cmake-build-debug/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_cfa5c
-/home/valentiay/clion-2017.1/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cfa5c.dir/link.txt --verbose=1
-/usr/bin/c++        CMakeFiles/cmTC_cfa5c.dir/feature_tests.cxx.o  -o cmTC_cfa5c 
-make[1]: выход из каталога «/home/valentiay/programming/Javorski/cmake-build-debug/CMakeFiles/CMakeTmp»
+Run Build Command:"/usr/bin/make" "cmTC_a8615/fast"
+/usr/bin/make -f CMakeFiles/cmTC_a8615.dir/build.make CMakeFiles/cmTC_a8615.dir/build
+make[1]: вход в каталог «/home/valentiay/programming/Javorski-Game/cmake-build-debug/CMakeFiles/CMakeTmp»
+Building CXX object CMakeFiles/cmTC_a8615.dir/feature_tests.cxx.o
+/usr/bin/c++     -std=c++14 -o CMakeFiles/cmTC_a8615.dir/feature_tests.cxx.o -c /home/valentiay/programming/Javorski-Game/cmake-build-debug/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_a8615
+/home/valentiay/clion-2017.1/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a8615.dir/link.txt --verbose=1
+/usr/bin/c++        CMakeFiles/cmTC_a8615.dir/feature_tests.cxx.o  -o cmTC_a8615 
+make[1]: выход из каталога «/home/valentiay/programming/Javorski-Game/cmake-build-debug/CMakeFiles/CMakeTmp»
 
 
     Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
@@ -407,17 +407,17 @@ make[1]: выход из каталога «/home/valentiay/programming/Javorski
 
 
 Detecting CXX [-std=c++11] compiler features compiled with the following output:
-Change Dir: /home/valentiay/programming/Javorski/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /home/valentiay/programming/Javorski-Game/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_8d989/fast"
-/usr/bin/make -f CMakeFiles/cmTC_8d989.dir/build.make CMakeFiles/cmTC_8d989.dir/build
-make[1]: вход в каталог «/home/valentiay/programming/Javorski/cmake-build-debug/CMakeFiles/CMakeTmp»
-Building CXX object CMakeFiles/cmTC_8d989.dir/feature_tests.cxx.o
-/usr/bin/c++     -std=c++11 -o CMakeFiles/cmTC_8d989.dir/feature_tests.cxx.o -c /home/valentiay/programming/Javorski/cmake-build-debug/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_8d989
-/home/valentiay/clion-2017.1/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8d989.dir/link.txt --verbose=1
-/usr/bin/c++        CMakeFiles/cmTC_8d989.dir/feature_tests.cxx.o  -o cmTC_8d989 
-make[1]: выход из каталога «/home/valentiay/programming/Javorski/cmake-build-debug/CMakeFiles/CMakeTmp»
+Run Build Command:"/usr/bin/make" "cmTC_64a14/fast"
+/usr/bin/make -f CMakeFiles/cmTC_64a14.dir/build.make CMakeFiles/cmTC_64a14.dir/build
+make[1]: вход в каталог «/home/valentiay/programming/Javorski-Game/cmake-build-debug/CMakeFiles/CMakeTmp»
+Building CXX object CMakeFiles/cmTC_64a14.dir/feature_tests.cxx.o
+/usr/bin/c++     -std=c++11 -o CMakeFiles/cmTC_64a14.dir/feature_tests.cxx.o -c /home/valentiay/programming/Javorski-Game/cmake-build-debug/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_64a14
+/home/valentiay/clion-2017.1/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_64a14.dir/link.txt --verbose=1
+/usr/bin/c++        CMakeFiles/cmTC_64a14.dir/feature_tests.cxx.o  -o cmTC_64a14 
+make[1]: выход из каталога «/home/valentiay/programming/Javorski-Game/cmake-build-debug/CMakeFiles/CMakeTmp»
 
 
     Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
@@ -480,17 +480,17 @@ make[1]: выход из каталога «/home/valentiay/programming/Javorski
 
 
 Detecting CXX [-std=c++98] compiler features compiled with the following output:
-Change Dir: /home/valentiay/programming/Javorski/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /home/valentiay/programming/Javorski-Game/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_6b229/fast"
-/usr/bin/make -f CMakeFiles/cmTC_6b229.dir/build.make CMakeFiles/cmTC_6b229.dir/build
-make[1]: вход в каталог «/home/valentiay/programming/Javorski/cmake-build-debug/CMakeFiles/CMakeTmp»
-Building CXX object CMakeFiles/cmTC_6b229.dir/feature_tests.cxx.o
-/usr/bin/c++     -std=c++98 -o CMakeFiles/cmTC_6b229.dir/feature_tests.cxx.o -c /home/valentiay/programming/Javorski/cmake-build-debug/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_6b229
-/home/valentiay/clion-2017.1/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6b229.dir/link.txt --verbose=1
-/usr/bin/c++        CMakeFiles/cmTC_6b229.dir/feature_tests.cxx.o  -o cmTC_6b229 
-make[1]: выход из каталога «/home/valentiay/programming/Javorski/cmake-build-debug/CMakeFiles/CMakeTmp»
+Run Build Command:"/usr/bin/make" "cmTC_c6064/fast"
+/usr/bin/make -f CMakeFiles/cmTC_c6064.dir/build.make CMakeFiles/cmTC_c6064.dir/build
+make[1]: вход в каталог «/home/valentiay/programming/Javorski-Game/cmake-build-debug/CMakeFiles/CMakeTmp»
+Building CXX object CMakeFiles/cmTC_c6064.dir/feature_tests.cxx.o
+/usr/bin/c++     -std=c++98 -o CMakeFiles/cmTC_c6064.dir/feature_tests.cxx.o -c /home/valentiay/programming/Javorski-Game/cmake-build-debug/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_c6064
+/home/valentiay/clion-2017.1/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c6064.dir/link.txt --verbose=1
+/usr/bin/c++        CMakeFiles/cmTC_c6064.dir/feature_tests.cxx.o  -o cmTC_c6064 
+make[1]: выход из каталога «/home/valentiay/programming/Javorski-Game/cmake-build-debug/CMakeFiles/CMakeTmp»
 
 
     Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
