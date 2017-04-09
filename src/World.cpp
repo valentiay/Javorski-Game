@@ -86,6 +86,10 @@ void World::update(sf::Time dt){
         java_->setVelocity(velocity);
     }
 
+    while (!commandQueue.empty()) {
+        sceneGraph_.onCommand(commandQueue.front(), dt);
+        commandQueue.pop();
+    }
     sceneGraph_.update(dt);
 }
 
@@ -94,4 +98,10 @@ void World::update(sf::Time dt){
 void World::draw(){
     window_.setView(worldView_);
     window_.draw(sceneGraph_);
+}
+
+
+
+CommandQueue &World::getCommandQueue() {
+    return commandQueue;
 }

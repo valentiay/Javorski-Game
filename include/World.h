@@ -49,7 +49,7 @@ private:
     // References to layers
     std::array<SceneNode*, LayerCount> layers_;
     // Contains queue of commands
-    CommandQueue commands;
+    CommandQueue commandQueue;
 
     // VERY IMPORTANT STUFF
     // Never touch it with no need

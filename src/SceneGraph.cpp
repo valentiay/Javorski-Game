@@ -34,7 +34,7 @@ void SceneNode::update(sf::Time dt){
 
 
 
-void SceneNode::updateCurrent(sf::Time dt){}
+void SceneNode::updateCurrent(sf::Time dt) {}
 
 
 
@@ -48,8 +48,26 @@ void SceneNode::draw(sf::RenderTarget & target, sf::RenderStates states) const{
 
 
 void SceneNode::drawCurrent(sf::RenderTarget & target,
-                                    sf::RenderStates states) const
+                            sf::RenderStates states) const
 {}
+
+
+
+unsigned int SceneNode::getCategory() const {
+    return Category::None;
+}
+
+
+
+
+void SceneNode::onCommand(const Command &command, sf::Time dt) {
+    if (command.target & getCategory())
+        command.action(*this, dt);
+
+    for (NodePtr & ptr: children_) {
+        ptr->onCommand(command, dt);
+    }
+}
 
 /****************************ENTITY********************************************/
 

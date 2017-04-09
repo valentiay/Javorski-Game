@@ -18,7 +18,7 @@ public:
 
 private:
     // TODO: Move into player
-    void processEvents();
+    void processInput();
     void handlePlayerInput(sf::Keyboard::Key key, bool isPressed);
 
     // Draws the scene

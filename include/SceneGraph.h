@@ -20,14 +20,17 @@ public:
 
     // Recursively updates the scene
     void update(sf::Time dt);
-    // Recursively processes commands
-    // TODO
-    void onCommand(const Command & command);
 
+    // Recursively processes commands
+    void onCommand(const Command & command, sf::Time dt);
+
+    // Returns the category of this node
+    virtual unsigned int getCategory() const;
 private:
     // Recursively draws the scene
     virtual void draw(sf::RenderTarget & target,
                       sf::RenderStates states) const final;
+
     // Draws current node. (Empty in the base class)
     virtual void drawCurrent(sf::RenderTarget & target,
                              sf::RenderStates states) const;
