@@ -21,6 +21,8 @@ Player.h
 /home/valentiay/programming/Javorski-Game/include/Player.h
 
 /home/valentiay/programming/Javorski-Game/include/Player.h
+iostream
+-
 SFML/Graphics.hpp
 /home/valentiay/programming/Javorski-Game/include/SFML/Graphics.hpp
 Commands.h

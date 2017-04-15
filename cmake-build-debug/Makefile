@@ -39,10 +39,10 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /home/valentiay/clion-2017.1/bin/cmake/bin/cmake
+CMAKE_COMMAND = /home/valentiay/clion-2017.1.1/bin/cmake/bin/cmake
 
 # The command to remove a file.
-RM = /home/valentiay/clion-2017.1/bin/cmake/bin/cmake -E remove -f
+RM = /home/valentiay/clion-2017.1.1/bin/cmake/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -59,7 +59,7 @@ CMAKE_BINARY_DIR = /home/valentiay/programming/Javorski-Game/cmake-build-debug
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/home/valentiay/clion-2017.1/bin/cmake/bin/cmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/home/valentiay/clion-2017.1.1/bin/cmake/bin/cmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -70,7 +70,7 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/home/valentiay/clion-2017.1/bin/cmake/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+	/home/valentiay/clion-2017.1.1/bin/cmake/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -149,6 +149,36 @@ JavoGame/fast:
 	$(MAKE) -f CMakeFiles/JavoGame.dir/build.make CMakeFiles/JavoGame.dir/build
 .PHONY : JavoGame/fast
 
+src/Actions.o: src/Actions.cpp.o
+
+.PHONY : src/Actions.o
+
+# target to build an object file
+src/Actions.cpp.o:
+	$(MAKE) -f CMakeFiles/JavoLib.dir/build.make CMakeFiles/JavoLib.dir/src/Actions.cpp.o
+	$(MAKE) -f CMakeFiles/JavoGame.dir/build.make CMakeFiles/JavoGame.dir/src/Actions.cpp.o
+.PHONY : src/Actions.cpp.o
+
+src/Actions.i: src/Actions.cpp.i
+
+.PHONY : src/Actions.i
+
+# target to preprocess a source file
+src/Actions.cpp.i:
+	$(MAKE) -f CMakeFiles/JavoLib.dir/build.make CMakeFiles/JavoLib.dir/src/Actions.cpp.i
+	$(MAKE) -f CMakeFiles/JavoGame.dir/build.make CMakeFiles/JavoGame.dir/src/Actions.cpp.i
+.PHONY : src/Actions.cpp.i
+
+src/Actions.s: src/Actions.cpp.s
+
+.PHONY : src/Actions.s
+
+# target to generate assembly for a file
+src/Actions.cpp.s:
+	$(MAKE) -f CMakeFiles/JavoLib.dir/build.make CMakeFiles/JavoLib.dir/src/Actions.cpp.s
+	$(MAKE) -f CMakeFiles/JavoGame.dir/build.make CMakeFiles/JavoGame.dir/src/Actions.cpp.s
+.PHONY : src/Actions.cpp.s
+
 src/Game.o: src/Game.cpp.o
 
 .PHONY : src/Game.o
@@ -178,6 +208,36 @@ src/Game.cpp.s:
 	$(MAKE) -f CMakeFiles/JavoLib.dir/build.make CMakeFiles/JavoLib.dir/src/Game.cpp.s
 	$(MAKE) -f CMakeFiles/JavoGame.dir/build.make CMakeFiles/JavoGame.dir/src/Game.cpp.s
 .PHONY : src/Game.cpp.s
+
+src/Player.o: src/Player.cpp.o
+
+.PHONY : src/Player.o
+
+# target to build an object file
+src/Player.cpp.o:
+	$(MAKE) -f CMakeFiles/JavoLib.dir/build.make CMakeFiles/JavoLib.dir/src/Player.cpp.o
+	$(MAKE) -f CMakeFiles/JavoGame.dir/build.make CMakeFiles/JavoGame.dir/src/Player.cpp.o
+.PHONY : src/Player.cpp.o
+
+src/Player.i: src/Player.cpp.i
+
+.PHONY : src/Player.i
+
+# target to preprocess a source file
+src/Player.cpp.i:
+	$(MAKE) -f CMakeFiles/JavoLib.dir/build.make CMakeFiles/JavoLib.dir/src/Player.cpp.i
+	$(MAKE) -f CMakeFiles/JavoGame.dir/build.make CMakeFiles/JavoGame.dir/src/Player.cpp.i
+.PHONY : src/Player.cpp.i
+
+src/Player.s: src/Player.cpp.s
+
+.PHONY : src/Player.s
+
+# target to generate assembly for a file
+src/Player.cpp.s:
+	$(MAKE) -f CMakeFiles/JavoLib.dir/build.make CMakeFiles/JavoLib.dir/src/Player.cpp.s
+	$(MAKE) -f CMakeFiles/JavoGame.dir/build.make CMakeFiles/JavoGame.dir/src/Player.cpp.s
+.PHONY : src/Player.cpp.s
 
 src/SceneGraph.o: src/SceneGraph.cpp.o
 
@@ -280,9 +340,15 @@ help:
 	@echo "... edit_cache"
 	@echo "... JavoLib"
 	@echo "... JavoGame"
+	@echo "... src/Actions.o"
+	@echo "... src/Actions.i"
+	@echo "... src/Actions.s"
 	@echo "... src/Game.o"
 	@echo "... src/Game.i"
 	@echo "... src/Game.s"
+	@echo "... src/Player.o"
+	@echo "... src/Player.i"
+	@echo "... src/Player.s"
 	@echo "... src/SceneGraph.o"
 	@echo "... src/SceneGraph.i"
 	@echo "... src/SceneGraph.s"

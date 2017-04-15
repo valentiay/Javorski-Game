@@ -6,6 +6,18 @@
 
 #IncludeRegexTransform: 
 
+/home/valentiay/programming/Javorski-Game/include/Actions.h
+functional
+-
+cassert
+-
+SFML/Graphics.hpp
+/home/valentiay/programming/Javorski-Game/include/SFML/Graphics.hpp
+Commands.h
+/home/valentiay/programming/Javorski-Game/include/Commands.h
+SceneGraph.h
+/home/valentiay/programming/Javorski-Game/include/SceneGraph.h
+
 /home/valentiay/programming/Javorski-Game/include/Commands.h
 functional
 -
@@ -21,6 +33,8 @@ Player.h
 /home/valentiay/programming/Javorski-Game/include/Player.h
 
 /home/valentiay/programming/Javorski-Game/include/Player.h
+iostream
+-
 SFML/Graphics.hpp
 /home/valentiay/programming/Javorski-Game/include/SFML/Graphics.hpp
 Commands.h
@@ -50,9 +64,19 @@ Commands.h
 
 /home/valentiay/programming/Javorski-Game/inl/ResorceHolder.inl
 
+/home/valentiay/programming/Javorski-Game/src/Actions.cpp
+../include/Actions.h
+/home/valentiay/programming/Javorski-Game/include/Actions.h
+
 /home/valentiay/programming/Javorski-Game/src/Game.cpp
 ../include/Game.h
 /home/valentiay/programming/Javorski-Game/include/Game.h
+
+/home/valentiay/programming/Javorski-Game/src/Player.cpp
+iostream
+-
+../include/Player.h
+/home/valentiay/programming/Javorski-Game/include/Player.h
 
 /home/valentiay/programming/Javorski-Game/src/SceneGraph.cpp
 assert.h
@@ -61,6 +85,8 @@ assert.h
 /home/valentiay/programming/Javorski-Game/include/SceneGraph.h
 
 /home/valentiay/programming/Javorski-Game/src/World.cpp
+iostream
+-
 ../include/World.h
 /home/valentiay/programming/Javorski-Game/include/World.h
 

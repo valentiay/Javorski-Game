@@ -34,10 +34,10 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /home/valentiay/clion-2017.1/bin/cmake/bin/cmake
+CMAKE_COMMAND = /home/valentiay/clion-2017.1.1/bin/cmake/bin/cmake
 
 # The command to remove a file.
-RM = /home/valentiay/clion-2017.1/bin/cmake/bin/cmake -E remove -f
+RM = /home/valentiay/clion-2017.1.1/bin/cmake/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -91,11 +91,11 @@ MySFML_EXTERNAL_OBJECTS =
 MySFML: CMakeFiles/MySFML.dir/src/main.cpp.o
 MySFML: CMakeFiles/MySFML.dir/build.make
 MySFML: libJavoLib.a
-MySFML: /usr/lib/x86_64-linux-gnu/libsfml-system.so
-MySFML: /usr/lib/x86_64-linux-gnu/libsfml-window.so
-MySFML: /usr/lib/x86_64-linux-gnu/libsfml-graphics.so
-MySFML: /usr/lib/x86_64-linux-gnu/libsfml-network.so
-MySFML: /usr/lib/x86_64-linux-gnu/libsfml-audio.so
+MySFML: /usr/lib64/libsfml-system.so
+MySFML: /usr/lib64/libsfml-window.so
+MySFML: /usr/lib64/libsfml-graphics.so
+MySFML: /usr/lib64/libsfml-network.so
+MySFML: /usr/lib64/libsfml-audio.so
 MySFML: CMakeFiles/MySFML.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/valentiay/programming/Javorski-Game/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable MySFML"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/MySFML.dir/link.txt --verbose=$(VERBOSE)

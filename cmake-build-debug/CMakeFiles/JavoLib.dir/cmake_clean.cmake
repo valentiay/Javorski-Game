@@ -2,6 +2,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/JavoLib.dir/src/World.cpp.o"
   "CMakeFiles/JavoLib.dir/src/Game.cpp.o"
   "CMakeFiles/JavoLib.dir/src/SceneGraph.cpp.o"
+  "CMakeFiles/JavoLib.dir/src/Actions.cpp.o"
+  "CMakeFiles/JavoLib.dir/src/Player.cpp.o"
   "libJavoLib.pdb"
   "libJavoLib.a"
 )
