@@ -10,7 +10,7 @@
 #include "SFML/Graphics.hpp"
 
 namespace Category{
-    enum Type{
+    unsigned enum Type{
         None    = 0,
         Java    = 1,
         Kitten  = 1 << 1

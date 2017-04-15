@@ -17,9 +17,8 @@ public:
     void run();
 
 private:
-    // TODO: Move into player
-    void processEvents();
-    void handlePlayerInput(sf::Keyboard::Key key, bool isPressed);
+    // Calls Player class handlers for input
+    void processInput();
 
     // Draws the scene
     void render();
@@ -28,7 +27,7 @@ private:
     sf::Time dt_;
 
     // Creates commands
-    Player player;
+    Player player_;
     // Stores and updates the scene
     World world_;
 };

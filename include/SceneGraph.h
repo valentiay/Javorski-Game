@@ -15,14 +15,18 @@ class SceneNode: public sf::Transformable,
 public:
     typedef std::unique_ptr<SceneNode> NodePtr;
 
+    SceneNode();
+
     void attachChild(NodePtr child);
     NodePtr detatchChild(const SceneNode & node);
 
     // Recursively updates the scene
-    void update(sf::Time dt);
+    void update(const sf::IntRect & worldBounds, sf::Time dt);
     // Recursively processes commands
-    // TODO
-    void onCommand(const Command & command);
+    void onCommand(const Command & command, sf::Time dt);
+
+    // Set category of Node
+    void setCategory(Category::Type category);
 
     // Returns absolute position of current node
     sf::Vector2f getAbsolutePosition();
@@ -36,10 +40,12 @@ private:
                              sf::RenderStates states) const;
 
     // Updates current node. (Empty in the base class)
-    virtual void updateCurrent(sf::Time dt);
+    virtual void updateCurrent(const sf::IntRect & worldBounds, sf::Time dt);
 
     SceneNode * father_;
     std::vector<NodePtr> children_;
+
+    Category::Type category_;
 };
 
 /******************************************************************************/
@@ -47,13 +53,8 @@ private:
 // Can be drawn and has some logic
 class Entity: public SceneNode{
 public:
-    // Caution! Avoid using this constructor like constructor of SpriteNode
-    // worldBound_ is used to process entities leaving bounds
-    explicit Entity(const sf::IntRect & worldBounds,
-                    const sf::Texture & texture);
-    Entity(const sf::IntRect & worldBounds,
-           const sf::Texture & texture,
-           const sf::IntRect & rect);
+    explicit Entity(const sf::Texture & texture);
+    explicit Entity(const sf::Texture & texture, const sf::IntRect & rect);
 
     void setVelocity(sf::Vector2f velocity);
     void setVelocity(float vx, float vy);
@@ -61,14 +62,14 @@ public:
 
     sf::IntRect getRectangle();
 
-    const sf::IntRect & worldBounds_;
-
 private:
 
     void drawCurrent(sf::RenderTarget & target,
                      sf::RenderStates states) const override final;
 
-    void updateCurrent(sf::Time dt) override;
+    virtual void updateCurrent(const sf::IntRect & worldBounds,
+                               sf::Time dt) override;
+
     sf::Vector2f velocity_;
 
     sf::Sprite sprite_;
@@ -78,14 +79,20 @@ private:
 
 class Java: public Entity{
 public:
-    explicit Java(const sf::IntRect & worldBounds,
-                  const sf::Texture & texture);
-    Java(const sf::IntRect & worldBounds,
-         const sf::Texture & texture,
-         const sf::IntRect & rect);
+    explicit Java(const sf::Texture & texture);
+    explicit Java(const sf::Texture & texture, const sf::IntRect & rect);
 
 private:
-    virtual void updateCurrent(sf::Time dt) override final;
+    virtual void updateCurrent(const sf::IntRect & worldBounds,
+                               sf::Time dt) override final;
+};
+
+/******************************************************************************/
+
+class Kitten: public Entity{
+public:
+    explicit Kitten(const sf::Texture & texture);
+    explicit Kitten(const sf::Texture & texture, const sf::IntRect & rect);
 };
 
 /******************************************************************************/

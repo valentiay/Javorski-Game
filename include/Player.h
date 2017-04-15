@@ -5,6 +5,7 @@
 #ifndef GAME_PLAYER_H
 #define GAME_PLAYER_H
 
+#include <iostream>
 #include "SFML/Graphics.hpp"
 #include "Commands.h"
 
@@ -13,7 +14,7 @@ public:
     // Handles one-time events
     void handleEvent(const sf::Event & event, CommandQueue & commands);
     // Handles real-time input
-    void handleRealtimeInput(CommandQueue & commands);
+    void handleRealTimeInput(CommandQueue &commands);
 };
 
 #endif //GAME_PLAYER_H

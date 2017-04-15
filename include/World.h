@@ -19,14 +19,6 @@ public:
 
     CommandQueue & getCommandQueue();
 
-    // TODO: Remove
-    bool isMovingUp;
-    bool isMovingLeft;
-    bool isMovingDown;
-    bool isMovingRight;
-
-    float playerSpeed;
-
 private:
     enum layer{
         Background,
@@ -38,9 +30,6 @@ private:
     void loadTextures();
     void buildScene();
 
-    // TODO: remove
-    Entity * player_;
-
     // Container for textures
     TextureHolder textures_;
     // Contains the scene
@@ -48,7 +37,7 @@ private:
     // References to layers
     std::array<SceneNode*, LayerCount> layers_;
     // Contains queue of commands
-    CommandQueue commands;
+    CommandQueue commandQueue_;
 
     // VERY IMPORTANT STUFF
     // Never touch it with no need

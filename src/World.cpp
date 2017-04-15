@@ -11,13 +11,7 @@ World::World(sf::RenderWindow & window):
     worldBounds_(0, 0,
                  static_cast<int>(worldView_.getSize().x),
                  static_cast<int>(worldView_.getSize().y)),
-    spawnPos_(worldView_.getSize().x / 2, worldView_.getSize().y - 100),
-    isMovingDown(false),
-    isMovingLeft(false),
-    isMovingRight(false),
-    isMovingUp(false),
-    player_(nullptr),
-    playerSpeed(200.f)
+    spawnPos_(worldView_.getSize().x / 2, worldView_.getSize().y - 100)
 {
     loadTextures();
     buildScene();
@@ -25,7 +19,8 @@ World::World(sf::RenderWindow & window):
 
 
 
-void World::loadTextures(){
+void World::loadTextures()
+{
     textures_.load(Textures::ID::Wall, "media/img/Beklemishev.jpg");
     textures_.load(Textures::ID::Player, "media/img/Javorski.jpg");
     textures_.load(Textures::ID::Floor, "media/img/kitten.png");
@@ -33,7 +28,8 @@ void World::loadTextures(){
 
 
 
-void World::buildScene(){
+void World::buildScene()
+{
     for(std::size_t i = 0; i < LayerCount; i++){
         SceneNode::NodePtr layer(new SceneNode());
         layers_[i] = layer.get();
@@ -49,14 +45,13 @@ void World::buildScene(){
     backgroundSprite->setPosition(0.f, 0.f);
     layers_[Background]->attachChild(std::move(backgroundSprite));
 
-    std::unique_ptr<Entity> kitten(
-            new Entity(worldBounds_, textures_.get(Textures::ID::Floor)));
+    std::unique_ptr<Entity>
+            kitten(new Entity(textures_.get(Textures::ID::Floor)));
     kitten->setPosition(100.f, 100.f);
-    player_ = kitten.get();
     layers_[Characters]->attachChild(std::move(kitten));
 
-    std::unique_ptr<Java> java(
-            new Java(worldBounds_, textures_.get(Textures::ID::Player)));
+    std::unique_ptr<Java>
+            java(new Java( textures_.get(Textures::ID::Player)));
     java->setPosition(300.f, 300.f);
     java->setVelocity(250.f, 250.f);
     layers_[Characters]->attachChild(std::move(java));
@@ -64,24 +59,27 @@ void World::buildScene(){
 
 
 
-void World::update(sf::Time dt){
-    sf::Vector2f velocity(0.f, 0.f);
-    if(isMovingUp)
-        velocity.y -= playerSpeed;
-    if(isMovingDown)
-        velocity.y += playerSpeed;
-    if(isMovingRight)
-        velocity.x += playerSpeed;
-    if(isMovingLeft)
-        velocity.x -= playerSpeed;
-    player_->setVelocity(velocity);
-
-    sceneGraph_.update(dt);
+void World::update(sf::Time dt)
+{
+    while(!commandQueue_.empty()){
+        Command command = commandQueue_.front();
+        commandQueue_.pop();
+        sceneGraph_.onCommand(command, dt);
+    }
+    sceneGraph_.update(worldBounds_, dt);
 }
 
 
 
-void World::draw(){
+void World::draw()
+{
     window_.setView(worldView_);
     window_.draw(sceneGraph_);
+}
+
+
+
+CommandQueue& World::getCommandQueue()
+{
+    return commandQueue_;
 }

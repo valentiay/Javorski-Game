@@ -7,6 +7,11 @@
 
 /****************************SCENENODE*****************************************/
 
+SceneNode::SceneNode()
+        :category_(Category::Type::None){}
+
+
+
 void SceneNode::attachChild(NodePtr child)
 {
     child->father_ = this;
@@ -28,16 +33,16 @@ SceneNode::NodePtr SceneNode::detatchChild(const SceneNode & node)
 
 
 
-void SceneNode::update(sf::Time dt)
+void SceneNode::update(const sf::IntRect & worldBounds, sf::Time dt)
 {
-    updateCurrent(dt);
+    updateCurrent(worldBounds, dt);
     for(const NodePtr & child : children_)
-        child->update(dt);
+        child->update(worldBounds, dt);
 };
 
 
 
-void SceneNode::updateCurrent(sf::Time dt){}
+void SceneNode::updateCurrent(const sf::IntRect & worldBounds, sf::Time dt){}
 
 
 
@@ -64,20 +69,33 @@ sf::Vector2f SceneNode::getAbsolutePosition()
     return transform * sf::Vector2f();
 }
 
+
+
+void SceneNode::onCommand(const Command & command, sf::Time dt)
+{
+    if(command.target & category_ != 0)
+        command.action(*this, dt);
+    for(NodePtr & node : children_)
+        node->onCommand(command, dt);
+}
+
+
+
+void SceneNode::setCategory(Category::Type category)
+{
+    category_ = category;
+}
+
 /****************************ENTITY********************************************/
 
-Entity::Entity(const sf::IntRect & worldBounds, const sf::Texture & texture):
-        worldBounds_(worldBounds)
+Entity::Entity(const sf::Texture & texture)
 {
     sprite_.setTexture(texture);
 }
 
 
 
-Entity::Entity(const sf::IntRect & worldBounds,
-               const sf::Texture & texture,
-               const sf::IntRect & rect):
-        worldBounds_(worldBounds)
+Entity::Entity(const sf::Texture & texture, const sf::IntRect & rect)
 {
     sprite_.setTexture(texture);
     sprite_.setTextureRect(rect);
@@ -115,7 +133,7 @@ void Entity::drawCurrent(sf::RenderTarget & target,
 
 
 
-void Entity::updateCurrent(sf::Time dt)
+void Entity::updateCurrent(const sf::IntRect & worldBounds, sf::Time dt)
 {
     move(velocity_ * dt.asSeconds());
 }
@@ -128,37 +146,55 @@ sf::IntRect Entity::getRectangle(){
 
 /****************************JAVA**********************************************/
 
-Java::Java(const sf::IntRect & worldBounds, const sf::Texture & texture):
-        Entity(worldBounds, texture)
+Java::Java(const sf::Texture & texture):
+        Entity(texture)
 {
-    setOrigin(217.0 / 2, 281.0 / 2);
-}
-
-Java::Java(const sf::IntRect & worldBounds,
-           const sf::Texture & texture,
-           const sf::IntRect & rect):
-        Entity(worldBounds, texture, rect)
-{
-    setOrigin(217.0 / 2, 281.0 / 2);
+    setOrigin(217 / 2, 281 / 2);
+    setCategory(Category::Type::Java);
 }
 
 
 
-void Java::updateCurrent(sf::Time dt)
+Java::Java(const sf::Texture & texture, const sf::IntRect & rect):
+        Entity(texture, rect)
+{
+    setOrigin(217 / 2, 281 / 2);
+    setCategory(Category::Type::Java);
+}
+
+
+
+void Java::updateCurrent(const sf::IntRect & worldBounds, sf::Time dt)
 {
     move(getVelocity() * dt.asSeconds());
     rotate(1);
 
     sf::Vector2f position = getPosition();
     sf::Vector2f velocity = getVelocity();
-    if(position.x > worldBounds_.width - 217./2 || position.x < 0){
+    if(position.x > worldBounds.width - 217./2 || position.x < 0){
         velocity.x = -velocity.x;
         setVelocity(velocity);
     }
-    if(position.y > worldBounds_.height - 281./2 || position.y < 0){
+    if(position.y > worldBounds.height - 281./2 || position.y < 0){
         velocity.y = -velocity.y;
         setVelocity(velocity);
     }
+}
+
+/****************************KITTEN********************************************/
+
+Kitten::Kitten(const sf::Texture & texture):
+        Entity(texture)
+{
+    setCategory(Category::Type::Kitten);
+}
+
+
+
+Kitten::Kitten(const sf::Texture & texture, const sf::IntRect & rect):
+        Entity(texture, rect)
+{
+    setCategory(Category::Type::Kitten);
 }
 
 /****************************SPRITENODE****************************************/
@@ -170,8 +206,7 @@ SpriteNode::SpriteNode(const sf::Texture & texture)
 
 
 
-SpriteNode::SpriteNode(const sf::Texture & texture,
-                       const sf::IntRect & rect)
+SpriteNode::SpriteNode(const sf::Texture & texture, const sf::IntRect & rect)
 {
     sprite_.setTexture(texture);
     sprite_.setTextureRect(rect);
