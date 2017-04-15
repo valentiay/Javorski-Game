@@ -12,7 +12,7 @@ Mover::Mover(sf::Vector2f delta):
 
 
 
-void Mover::operator()(Entity & entity, sf::Time dt)
+void Mover::operator()(Entity & entity, sf::Time dt) const
 {
     entity.move(delta_);
 }

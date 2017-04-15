@@ -177,13 +177,38 @@ CMakeFiles/JavoLib.dir/src/Player.cpp.o.provides: CMakeFiles/JavoLib.dir/src/Pla
 CMakeFiles/JavoLib.dir/src/Player.cpp.o.provides.build: CMakeFiles/JavoLib.dir/src/Player.cpp.o
 
 
+CMakeFiles/JavoLib.dir/src/Command.cpp.o: CMakeFiles/JavoLib.dir/flags.make
+CMakeFiles/JavoLib.dir/src/Command.cpp.o: ../src/Command.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/valentiay/programming/Javorski-Game/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/JavoLib.dir/src/Command.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/JavoLib.dir/src/Command.cpp.o -c /home/valentiay/programming/Javorski-Game/src/Command.cpp
+
+CMakeFiles/JavoLib.dir/src/Command.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/JavoLib.dir/src/Command.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/valentiay/programming/Javorski-Game/src/Command.cpp > CMakeFiles/JavoLib.dir/src/Command.cpp.i
+
+CMakeFiles/JavoLib.dir/src/Command.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/JavoLib.dir/src/Command.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/valentiay/programming/Javorski-Game/src/Command.cpp -o CMakeFiles/JavoLib.dir/src/Command.cpp.s
+
+CMakeFiles/JavoLib.dir/src/Command.cpp.o.requires:
+
+.PHONY : CMakeFiles/JavoLib.dir/src/Command.cpp.o.requires
+
+CMakeFiles/JavoLib.dir/src/Command.cpp.o.provides: CMakeFiles/JavoLib.dir/src/Command.cpp.o.requires
+	$(MAKE) -f CMakeFiles/JavoLib.dir/build.make CMakeFiles/JavoLib.dir/src/Command.cpp.o.provides.build
+.PHONY : CMakeFiles/JavoLib.dir/src/Command.cpp.o.provides
+
+CMakeFiles/JavoLib.dir/src/Command.cpp.o.provides.build: CMakeFiles/JavoLib.dir/src/Command.cpp.o
+
+
 # Object files for target JavoLib
 JavoLib_OBJECTS = \
 "CMakeFiles/JavoLib.dir/src/World.cpp.o" \
 "CMakeFiles/JavoLib.dir/src/Game.cpp.o" \
 "CMakeFiles/JavoLib.dir/src/SceneGraph.cpp.o" \
 "CMakeFiles/JavoLib.dir/src/Actions.cpp.o" \
-"CMakeFiles/JavoLib.dir/src/Player.cpp.o"
+"CMakeFiles/JavoLib.dir/src/Player.cpp.o" \
+"CMakeFiles/JavoLib.dir/src/Command.cpp.o"
 
 # External object files for target JavoLib
 JavoLib_EXTERNAL_OBJECTS =
@@ -193,9 +218,10 @@ libJavoLib.a: CMakeFiles/JavoLib.dir/src/Game.cpp.o
 libJavoLib.a: CMakeFiles/JavoLib.dir/src/SceneGraph.cpp.o
 libJavoLib.a: CMakeFiles/JavoLib.dir/src/Actions.cpp.o
 libJavoLib.a: CMakeFiles/JavoLib.dir/src/Player.cpp.o
+libJavoLib.a: CMakeFiles/JavoLib.dir/src/Command.cpp.o
 libJavoLib.a: CMakeFiles/JavoLib.dir/build.make
 libJavoLib.a: CMakeFiles/JavoLib.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/valentiay/programming/Javorski-Game/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX static library libJavoLib.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/valentiay/programming/Javorski-Game/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX static library libJavoLib.a"
 	$(CMAKE_COMMAND) -P CMakeFiles/JavoLib.dir/cmake_clean_target.cmake
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/JavoLib.dir/link.txt --verbose=$(VERBOSE)
 
@@ -209,6 +235,7 @@ CMakeFiles/JavoLib.dir/requires: CMakeFiles/JavoLib.dir/src/Game.cpp.o.requires
 CMakeFiles/JavoLib.dir/requires: CMakeFiles/JavoLib.dir/src/SceneGraph.cpp.o.requires
 CMakeFiles/JavoLib.dir/requires: CMakeFiles/JavoLib.dir/src/Actions.cpp.o.requires
 CMakeFiles/JavoLib.dir/requires: CMakeFiles/JavoLib.dir/src/Player.cpp.o.requires
+CMakeFiles/JavoLib.dir/requires: CMakeFiles/JavoLib.dir/src/Command.cpp.o.requires
 
 .PHONY : CMakeFiles/JavoLib.dir/requires
 

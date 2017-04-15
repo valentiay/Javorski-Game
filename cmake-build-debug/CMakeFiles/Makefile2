@@ -66,7 +66,7 @@ CMAKE_BINARY_DIR = /home/valentiay/programming/Javorski-Game/cmake-build-debug
 CMakeFiles/MySFML.dir/all: CMakeFiles/JavoLib.dir/all
 	$(MAKE) -f CMakeFiles/MySFML.dir/build.make CMakeFiles/MySFML.dir/depend
 	$(MAKE) -f CMakeFiles/MySFML.dir/build.make CMakeFiles/MySFML.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/valentiay/programming/Javorski-Game/cmake-build-debug/CMakeFiles --progress-num=14,15 "Built target MySFML"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/valentiay/programming/Javorski-Game/cmake-build-debug/CMakeFiles --progress-num=16,17 "Built target MySFML"
 .PHONY : CMakeFiles/MySFML.dir/all
 
 # Include target in all.
@@ -76,7 +76,7 @@ all: CMakeFiles/MySFML.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/MySFML.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/valentiay/programming/Javorski-Game/cmake-build-debug/CMakeFiles 8
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/valentiay/programming/Javorski-Game/cmake-build-debug/CMakeFiles 9
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/MySFML.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/valentiay/programming/Javorski-Game/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/MySFML.dir/rule
@@ -103,7 +103,7 @@ clean: CMakeFiles/MySFML.dir/clean
 CMakeFiles/JavoLib.dir/all:
 	$(MAKE) -f CMakeFiles/JavoLib.dir/build.make CMakeFiles/JavoLib.dir/depend
 	$(MAKE) -f CMakeFiles/JavoLib.dir/build.make CMakeFiles/JavoLib.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/valentiay/programming/Javorski-Game/cmake-build-debug/CMakeFiles --progress-num=8,9,10,11,12,13 "Built target JavoLib"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/valentiay/programming/Javorski-Game/cmake-build-debug/CMakeFiles --progress-num=9,10,11,12,13,14,15 "Built target JavoLib"
 .PHONY : CMakeFiles/JavoLib.dir/all
 
 # Include target in all.
@@ -113,7 +113,7 @@ all: CMakeFiles/JavoLib.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/JavoLib.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/valentiay/programming/Javorski-Game/cmake-build-debug/CMakeFiles 6
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/valentiay/programming/Javorski-Game/cmake-build-debug/CMakeFiles 7
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/JavoLib.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/valentiay/programming/Javorski-Game/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/JavoLib.dir/rule
@@ -140,7 +140,7 @@ clean: CMakeFiles/JavoLib.dir/clean
 CMakeFiles/JavoGame.dir/all:
 	$(MAKE) -f CMakeFiles/JavoGame.dir/build.make CMakeFiles/JavoGame.dir/depend
 	$(MAKE) -f CMakeFiles/JavoGame.dir/build.make CMakeFiles/JavoGame.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/valentiay/programming/Javorski-Game/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4,5,6,7 "Built target JavoGame"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/valentiay/programming/Javorski-Game/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4,5,6,7,8 "Built target JavoGame"
 .PHONY : CMakeFiles/JavoGame.dir/all
 
 # Include target in all.
@@ -150,7 +150,7 @@ all: CMakeFiles/JavoGame.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/JavoGame.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/valentiay/programming/Javorski-Game/cmake-build-debug/CMakeFiles 7
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/valentiay/programming/Javorski-Game/cmake-build-debug/CMakeFiles 8
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/JavoGame.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/valentiay/programming/Javorski-Game/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/JavoGame.dir/rule

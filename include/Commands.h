@@ -22,6 +22,8 @@ class SceneNode;
 typedef std::function<void(SceneNode &, sf::Time dt)> Action;
 
 struct Command{
+    Command(Category::Type target, Action acrion);
+
     Category::Type target;
     Action action;
 };

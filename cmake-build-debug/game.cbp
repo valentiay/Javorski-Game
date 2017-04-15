@@ -195,6 +195,10 @@
 			<Option target="JavoLib"/>
 			<Option target="JavoGame"/>
 		</Unit>
+		<Unit filename="/home/valentiay/programming/Javorski-Game/src/Command.cpp">
+			<Option target="JavoLib"/>
+			<Option target="JavoGame"/>
+		</Unit>
 		<Unit filename="/home/valentiay/programming/Javorski-Game/src/Game.cpp">
 			<Option target="JavoLib"/>
 			<Option target="JavoGame"/>

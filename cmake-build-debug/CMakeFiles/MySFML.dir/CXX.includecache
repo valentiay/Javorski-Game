@@ -6,6 +6,18 @@
 
 #IncludeRegexTransform: 
 
+/home/valentiay/programming/Javorski-Game/include/Actions.h
+functional
+-
+cassert
+-
+SFML/Graphics.hpp
+/home/valentiay/programming/Javorski-Game/include/SFML/Graphics.hpp
+Commands.h
+/home/valentiay/programming/Javorski-Game/include/Commands.h
+SceneGraph.h
+/home/valentiay/programming/Javorski-Game/include/SceneGraph.h
+
 /home/valentiay/programming/Javorski-Game/include/Commands.h
 functional
 -
@@ -21,12 +33,12 @@ Player.h
 /home/valentiay/programming/Javorski-Game/include/Player.h
 
 /home/valentiay/programming/Javorski-Game/include/Player.h
-iostream
--
 SFML/Graphics.hpp
 /home/valentiay/programming/Javorski-Game/include/SFML/Graphics.hpp
 Commands.h
 /home/valentiay/programming/Javorski-Game/include/Commands.h
+Actions.h
+/home/valentiay/programming/Javorski-Game/include/Actions.h
 
 /home/valentiay/programming/Javorski-Game/include/ResourceHolder.h
 SFML/Graphics.hpp

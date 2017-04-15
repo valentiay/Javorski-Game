@@ -5,10 +5,11 @@
 #ifndef GAME_PLAYER_H
 #define GAME_PLAYER_H
 
-#include <iostream>
 #include "SFML/Graphics.hpp"
 #include "Commands.h"
+#include "Actions.h"
 
+// TODO: Implement better
 class Player{
 public:
     // Handles one-time events

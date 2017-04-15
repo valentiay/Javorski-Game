@@ -73,7 +73,7 @@ sf::Vector2f SceneNode::getAbsolutePosition()
 
 void SceneNode::onCommand(const Command & command, sf::Time dt)
 {
-    if(command.target & category_ != 0)
+    if(command.target & category_)
         command.action(*this, dt);
     for(NodePtr & node : children_)
         node->onCommand(command, dt);

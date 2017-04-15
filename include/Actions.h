@@ -30,7 +30,7 @@ public:
     Mover(float x, float y);
     Mover(sf::Vector2f delta);
 
-    void operator()(Entity & entity, sf::Time dt);
+    void operator()(Entity & entity, sf::Time dt) const;
 
 private:
     sf::Vector2f delta_;

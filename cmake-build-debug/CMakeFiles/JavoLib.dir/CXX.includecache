@@ -33,12 +33,12 @@ Player.h
 /home/valentiay/programming/Javorski-Game/include/Player.h
 
 /home/valentiay/programming/Javorski-Game/include/Player.h
-iostream
--
 SFML/Graphics.hpp
 /home/valentiay/programming/Javorski-Game/include/SFML/Graphics.hpp
 Commands.h
 /home/valentiay/programming/Javorski-Game/include/Commands.h
+Actions.h
+/home/valentiay/programming/Javorski-Game/include/Actions.h
 
 /home/valentiay/programming/Javorski-Game/include/ResourceHolder.h
 SFML/Graphics.hpp
@@ -68,13 +68,15 @@ Commands.h
 ../include/Actions.h
 /home/valentiay/programming/Javorski-Game/include/Actions.h
 
+/home/valentiay/programming/Javorski-Game/src/Command.cpp
+../include/Commands.h
+/home/valentiay/programming/Javorski-Game/include/Commands.h
+
 /home/valentiay/programming/Javorski-Game/src/Game.cpp
 ../include/Game.h
 /home/valentiay/programming/Javorski-Game/include/Game.h
 
 /home/valentiay/programming/Javorski-Game/src/Player.cpp
-iostream
--
 ../include/Player.h
 /home/valentiay/programming/Javorski-Game/include/Player.h
 

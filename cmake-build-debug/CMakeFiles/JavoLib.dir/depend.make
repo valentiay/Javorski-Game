@@ -6,6 +6,10 @@ CMakeFiles/JavoLib.dir/src/Actions.cpp.o: ../include/Commands.h
 CMakeFiles/JavoLib.dir/src/Actions.cpp.o: ../include/SceneGraph.h
 CMakeFiles/JavoLib.dir/src/Actions.cpp.o: ../src/Actions.cpp
 
+CMakeFiles/JavoLib.dir/src/Command.cpp.o: ../include/Commands.h
+CMakeFiles/JavoLib.dir/src/Command.cpp.o: ../src/Command.cpp
+
+CMakeFiles/JavoLib.dir/src/Game.cpp.o: ../include/Actions.h
 CMakeFiles/JavoLib.dir/src/Game.cpp.o: ../include/Commands.h
 CMakeFiles/JavoLib.dir/src/Game.cpp.o: ../include/Game.h
 CMakeFiles/JavoLib.dir/src/Game.cpp.o: ../include/Player.h
@@ -15,8 +19,10 @@ CMakeFiles/JavoLib.dir/src/Game.cpp.o: ../include/World.h
 CMakeFiles/JavoLib.dir/src/Game.cpp.o: ../inl/ResorceHolder.inl
 CMakeFiles/JavoLib.dir/src/Game.cpp.o: ../src/Game.cpp
 
+CMakeFiles/JavoLib.dir/src/Player.cpp.o: ../include/Actions.h
 CMakeFiles/JavoLib.dir/src/Player.cpp.o: ../include/Commands.h
 CMakeFiles/JavoLib.dir/src/Player.cpp.o: ../include/Player.h
+CMakeFiles/JavoLib.dir/src/Player.cpp.o: ../include/SceneGraph.h
 CMakeFiles/JavoLib.dir/src/Player.cpp.o: ../src/Player.cpp
 
 CMakeFiles/JavoLib.dir/src/SceneGraph.cpp.o: ../include/Commands.h

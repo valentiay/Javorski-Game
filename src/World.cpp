@@ -45,8 +45,8 @@ void World::buildScene()
     backgroundSprite->setPosition(0.f, 0.f);
     layers_[Background]->attachChild(std::move(backgroundSprite));
 
-    std::unique_ptr<Entity>
-            kitten(new Entity(textures_.get(Textures::ID::Floor)));
+    std::unique_ptr<Kitten>
+            kitten(new Kitten(textures_.get(Textures::ID::Floor)));
     kitten->setPosition(100.f, 100.f);
     layers_[Characters]->attachChild(std::move(kitten));
 

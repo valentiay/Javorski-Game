@@ -17,7 +17,8 @@ set(SOURCE_FILES
         src/Game.cpp
         src/SceneGraph.cpp
         src/Actions.cpp
-        src/Player.cpp)
+        src/Player.cpp
+        src/Command.cpp)
 
 add_executable(JavoGame ${SOURCE_FILES})
 
@@ -26,7 +27,8 @@ set(SOURCE_LIB src/World.cpp
         src/Game.cpp
         src/SceneGraph.cpp
         src/Actions.cpp
-        src/Player.cpp)
+        src/Player.cpp
+        src/Command.cpp)
 
 add_library(JavoLib STATIC ${SOURCE_LIB})
 

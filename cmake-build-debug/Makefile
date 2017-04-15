@@ -179,6 +179,36 @@ src/Actions.cpp.s:
 	$(MAKE) -f CMakeFiles/JavoGame.dir/build.make CMakeFiles/JavoGame.dir/src/Actions.cpp.s
 .PHONY : src/Actions.cpp.s
 
+src/Command.o: src/Command.cpp.o
+
+.PHONY : src/Command.o
+
+# target to build an object file
+src/Command.cpp.o:
+	$(MAKE) -f CMakeFiles/JavoLib.dir/build.make CMakeFiles/JavoLib.dir/src/Command.cpp.o
+	$(MAKE) -f CMakeFiles/JavoGame.dir/build.make CMakeFiles/JavoGame.dir/src/Command.cpp.o
+.PHONY : src/Command.cpp.o
+
+src/Command.i: src/Command.cpp.i
+
+.PHONY : src/Command.i
+
+# target to preprocess a source file
+src/Command.cpp.i:
+	$(MAKE) -f CMakeFiles/JavoLib.dir/build.make CMakeFiles/JavoLib.dir/src/Command.cpp.i
+	$(MAKE) -f CMakeFiles/JavoGame.dir/build.make CMakeFiles/JavoGame.dir/src/Command.cpp.i
+.PHONY : src/Command.cpp.i
+
+src/Command.s: src/Command.cpp.s
+
+.PHONY : src/Command.s
+
+# target to generate assembly for a file
+src/Command.cpp.s:
+	$(MAKE) -f CMakeFiles/JavoLib.dir/build.make CMakeFiles/JavoLib.dir/src/Command.cpp.s
+	$(MAKE) -f CMakeFiles/JavoGame.dir/build.make CMakeFiles/JavoGame.dir/src/Command.cpp.s
+.PHONY : src/Command.cpp.s
+
 src/Game.o: src/Game.cpp.o
 
 .PHONY : src/Game.o
@@ -343,6 +373,9 @@ help:
 	@echo "... src/Actions.o"
 	@echo "... src/Actions.i"
 	@echo "... src/Actions.s"
+	@echo "... src/Command.o"
+	@echo "... src/Command.i"
+	@echo "... src/Command.s"
 	@echo "... src/Game.o"
 	@echo "... src/Game.i"
 	@echo "... src/Game.s"

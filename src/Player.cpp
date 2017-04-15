@@ -2,17 +2,28 @@
 // Created by valentiay on 4/16/17.
 //
 
-#include <iostream>
 #include "../include/Player.h"
 
 void Player::handleEvent(const sf::Event &event, CommandQueue &commands)
 {
-    std::cout << "1\n";
+    // TODO
 }
 
 
 
 void Player::handleRealTimeInput(CommandQueue &commands)
 {
-    std::cout << "2\n";
+    // TODO: Refactor
+    if(sf::Keyboard::isKeyPressed(sf::Keyboard::W)){
+        commands.push(Command(Category::Type::Kitten, derivedAction<Entity, Mover>(Mover(0, -1))));
+    }
+    if(sf::Keyboard::isKeyPressed(sf::Keyboard::A)){
+        commands.push(Command(Category::Type::Kitten, derivedAction<Entity, Mover>(Mover(-1, 0))));
+    }
+    if(sf::Keyboard::isKeyPressed(sf::Keyboard::S)){
+        commands.push(Command(Category::Type::Kitten, derivedAction<Entity, Mover>(Mover(0, 1))));
+    }
+    if(sf::Keyboard::isKeyPressed(sf::Keyboard::D)){
+        commands.push(Command(Category::Type::Kitten, derivedAction<Entity, Mover>(Mover(1, 0))));
+    }
 }

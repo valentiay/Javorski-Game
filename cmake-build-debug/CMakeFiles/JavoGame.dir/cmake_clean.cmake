@@ -5,6 +5,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/JavoGame.dir/src/SceneGraph.cpp.o"
   "CMakeFiles/JavoGame.dir/src/Actions.cpp.o"
   "CMakeFiles/JavoGame.dir/src/Player.cpp.o"
+  "CMakeFiles/JavoGame.dir/src/Command.cpp.o"
   "JavoGame.pdb"
   "JavoGame"
 )
